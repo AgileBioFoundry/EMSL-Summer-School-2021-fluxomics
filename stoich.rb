@@ -19,6 +19,10 @@ data['metabolites'].each do |hash0|
   metabolite_ids << metabolite_id
 end
 
+metabolite_ids.sort_by! { |metabolite_id|
+  metabolite_id.split('_').last
+}
+
 data['reactions'].each do |hash0|
   reaction_id = hash0['id']
   reaction_metabolites = hash0['metabolites']
