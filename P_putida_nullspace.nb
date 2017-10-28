@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       157,          7]
-NotebookDataLength[    757030,      12903]
-NotebookOptionsPosition[    755908,      12864]
-NotebookOutlinePosition[    756317,      12882]
-CellTagsIndexPosition[    756274,      12879]
+NotebookDataLength[    757263,      12904]
+NotebookOptionsPosition[    756141,      12865]
+NotebookOutlinePosition[    756550,      12883]
+CellTagsIndexPosition[    756507,      12880]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -2406,14 +2406,13 @@ Cell[BoxData[
           RowBox[{"Last", "[", 
            RowBox[{"StringSplit", "[", 
             RowBox[{"string", ",", "\"\<_\>\""}], "]"}], "]"}], "\[Equal]", 
-          "\"\<e\>\""}]}], "]"}]}], "]"}]}], ";", " ", 
-    RowBox[{"(*", " ", 
-     RowBox[{"not", " ", "used"}], " ", "*)"}], "\[IndentingNewLine]", 
-    RowBox[{"(*", " ", 
-     RowBox[{
-     "Intracellular", " ", "metabolites", " ", "are", " ", "denoted", " ", 
-      "by", " ", "the", " ", "\"\<_c\>\"", " ", 
-      RowBox[{"suffix", "."}]}], " ", "*)"}], "\[IndentingNewLine]", 
+          "\"\<e\>\""}]}], "]"}]}], "]"}]}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{"(*", " ", 
+    RowBox[{
+    "Intracellular", " ", "metabolites", " ", "are", " ", "denoted", " ", 
+     "by", " ", "the", " ", "\"\<_c\>\"", " ", 
+     RowBox[{"suffix", "."}]}], " ", "*)"}], "\[IndentingNewLine]", 
+   RowBox[{
     RowBox[{"intracellularMetaboliteIds", "=", 
      RowBox[{"Select", "[", 
       RowBox[{"metaboliteIds", ",", 
@@ -2435,15 +2434,14 @@ Cell[BoxData[
      RowBox[{"Drop", "[", 
       RowBox[{"stoichiometryMatrix", ",", 
        RowBox[{"Length", "[", "intracellularMetaboliteIds", "]"}]}], "]"}]}], 
-    ";", " ", 
-    RowBox[{"(*", " ", 
-     RowBox[{"not", " ", "used"}], " ", "*)"}], "\[IndentingNewLine]", 
-    RowBox[{"(*", " ", 
-     RowBox[{
-     "The", " ", "block", " ", "of", " ", "the", " ", "matrix", " ", "of", 
-      " ", "stoichiometric", " ", "coefficients", " ", "for", " ", 
-      "intracellular", " ", "metabolites", " ", 
-      RowBox[{"only", "."}]}], " ", "*)"}], "\[IndentingNewLine]", 
+    ";"}], "\[IndentingNewLine]", 
+   RowBox[{"(*", " ", 
+    RowBox[{
+    "The", " ", "block", " ", "of", " ", "the", " ", "matrix", " ", "of", " ",
+      "stoichiometric", " ", "coefficients", " ", "for", " ", "intracellular",
+      " ", "metabolites", " ", 
+     RowBox[{"only", "."}]}], " ", "*)"}], "\[IndentingNewLine]", 
+   RowBox[{
     RowBox[{"intracellularStoichiometryMatrix", "=", 
      RowBox[{"Take", "[", 
       RowBox[{"stoichiometryMatrix", ",", 
@@ -2487,7 +2485,7 @@ Cell[BoxData[
   3.718141982649046*^9, 3.7181420023305187`*^9}, {3.718144127599937*^9, 
   3.718144135278895*^9}, {3.71814419061852*^9, 3.7181441949931297`*^9}, {
   3.718144245399983*^9, 3.7181443185451927`*^9}, {3.718144542661165*^9, 
-  3.718144547793612*^9}}],
+  3.718144547793612*^9}, {3.7181560142430153`*^9, 3.718156017660133*^9}}],
 
 Cell[BoxData[
  RowBox[{"{", 
@@ -2496,7 +2494,7 @@ Cell[BoxData[
    3.718142005694007*^9, 3.718142148040999*^9, 3.718142286557024*^9, {
    3.7181441359880743`*^9, 3.718144140276225*^9}, 3.718144195775262*^9, 
    3.718144250584425*^9, 3.718144288210555*^9, 3.71814431914799*^9, 
-   3.71814454927696*^9}],
+   3.71814454927696*^9, 3.718156020227816*^9}],
 
 Cell[BoxData[
  TagBox[
@@ -4172,7 +4170,7 @@ Cell[BoxData[
    3.718142005694007*^9, 3.718142148040999*^9, 3.718142286557024*^9, {
    3.7181441359880743`*^9, 3.718144140276225*^9}, 3.718144195775262*^9, 
    3.718144250584425*^9, 3.718144288210555*^9, 3.71814431914799*^9, 
-   3.718144549367777*^9}]
+   3.71814454927696*^9, 3.7181560203397818`*^9}]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -4225,7 +4223,7 @@ Cell[BoxData[
    3.718136373688675*^9, 3.718136398856514*^9}, 3.7181420095362377`*^9, 
    3.718142086674501*^9, 3.7181422929160337`*^9, 3.7181441441211157`*^9, 
    3.71814419985312*^9, 3.718144253744783*^9, 3.7181442914909477`*^9, 
-   3.7181443220499372`*^9, 3.718144552726584*^9}],
+   3.7181443220499372`*^9, 3.718144552726584*^9, 3.7181560247770557`*^9}],
 
 Cell[BoxData[
  InterpretationBox[
@@ -4237,7 +4235,7 @@ Cell[BoxData[
          DynamicBox[ToBoxes[
            FEPrivate`FrontEndResource["FEStrings", "sizeExplanation"], 
            StandardForm],
-          ImageSizeCache->{278., {2., 8.}}],
+          ImageSizeCache->{201.13204956054688`, {2., 6.}}],
          StripOnInput->False,
          DynamicUpdating->True], "Panel",
         StripOnInput->False,
@@ -4302,7 +4300,7 @@ Cell[BoxData[
            DynamicBox[ToBoxes[
              FEPrivate`FrontEndResource["FEStrings", "sizeShowLess"], 
              StandardForm],
-            ImageSizeCache->{49., {1., 8.}}],
+            ImageSizeCache->{35.785491943359375`, {0., 6.}}],
            StripOnInput->False,
            DynamicUpdating->True], "Panel",
           StripOnInput->False,
@@ -4347,8 +4345,8 @@ Cell[BoxData[
                 "PROTOCATECHUATE-DECARBOXYLASE-RXN$f", "PTAr$f", "PYK$f", 
                 "PYRt2$f", "RPE$f", "RPI$f", "SUCCt2_2$f", "SUCCt3$f", 
                 "TALA$f", "THD2$f", "TKT1$f", "TKT2$f", "TPI$f", "XYLA$f", 
-                "XYL_ABC$f", "muconate_sink$f"}}]], 506, 31463669767717957309,
-            5/2],
+                "XYL_ABC$f", "muconate_sink$f"}}]], 13, 31463837069381665079, 
+           5/2],
          Enabled->True,
          Evaluator->Automatic,
          Method->"Queued"], "\[ThinSpace]", 
@@ -4358,7 +4356,7 @@ Cell[BoxData[
            DynamicBox[ToBoxes[
              FEPrivate`FrontEndResource["FEStrings", "sizeShowMore"], 
              StandardForm],
-            ImageSizeCache->{52., {1., 8.}}],
+            ImageSizeCache->{38.17613220214844, {0., 6.}}],
            StripOnInput->False,
            DynamicUpdating->True], "Panel",
           StripOnInput->False,
@@ -4403,8 +4401,8 @@ Cell[BoxData[
                 "PROTOCATECHUATE-DECARBOXYLASE-RXN$f", "PTAr$f", "PYK$f", 
                 "PYRt2$f", "RPE$f", "RPI$f", "SUCCt2_2$f", "SUCCt3$f", 
                 "TALA$f", "THD2$f", "TKT1$f", "TKT2$f", "TPI$f", "XYLA$f", 
-                "XYL_ABC$f", "muconate_sink$f"}}]], 506, 31463669767717957309,
-            5 2],
+                "XYL_ABC$f", "muconate_sink$f"}}]], 13, 31463837069381665079, 
+           5 2],
          Enabled->True,
          Evaluator->Automatic,
          Method->"Queued"], "\[ThinSpace]", 
@@ -4414,7 +4412,7 @@ Cell[BoxData[
            DynamicBox[ToBoxes[
              FEPrivate`FrontEndResource["FEStrings", "sizeShowAll"], 
              StandardForm],
-            ImageSizeCache->{82., {2., 8.}}],
+            ImageSizeCache->{59.81123352050781, {2., 6.}}],
            StripOnInput->False,
            DynamicUpdating->True], "Panel",
           StripOnInput->False,
@@ -4459,8 +4457,8 @@ Cell[BoxData[
                 "PROTOCATECHUATE-DECARBOXYLASE-RXN$f", "PTAr$f", "PYK$f", 
                 "PYRt2$f", "RPE$f", "RPI$f", "SUCCt2_2$f", "SUCCt3$f", 
                 "TALA$f", "THD2$f", "TKT1$f", "TKT2$f", "TPI$f", "XYLA$f", 
-                "XYL_ABC$f", "muconate_sink$f"}}]], 506, 31463669767717957309,
-            Infinity],
+                "XYL_ABC$f", "muconate_sink$f"}}]], 13, 31463837069381665079, 
+           Infinity],
          Enabled->True,
          Evaluator->Automatic,
          Method->"Queued"], "\[ThinSpace]", 
@@ -4470,7 +4468,7 @@ Cell[BoxData[
            DynamicBox[ToBoxes[
              FEPrivate`FrontEndResource["FEStrings", "sizeChangeLimit"], 
              StandardForm],
-            ImageSizeCache->{74., {1., 8.}}],
+            ImageSizeCache->{53.486602783203125`, {0., 6.}}],
            StripOnInput->False,
            DynamicUpdating->True], "Panel",
           StripOnInput->False,
@@ -4505,7 +4503,7 @@ Cell[BoxData[
     FrameMargins->5],
    Deploy,
    DefaultBaseStyle->"Deploy"],
-  Out[506]]], "Output",
+  Out[13]]], "Output",
  CellChangeTimes->{
   3.718134281200652*^9, {3.718134317265177*^9, 3.718134364090622*^9}, 
    3.718134395604892*^9, 3.718134425791483*^9, {3.71813449968265*^9, 
@@ -4517,7 +4515,7 @@ Cell[BoxData[
    3.718136373688675*^9, 3.718136398856514*^9}, 3.7181420095362377`*^9, 
    3.718142086674501*^9, 3.7181422929160337`*^9, 3.7181441441211157`*^9, 
    3.71814419985312*^9, 3.718144253744783*^9, 3.7181442914909477`*^9, 
-   3.7181443220499372`*^9, 3.718144552833159*^9}],
+   3.7181443220499372`*^9, 3.718144552726584*^9, 3.718156024901162*^9}],
 
 Cell[BoxData[
  TagBox[
@@ -6432,7 +6430,7 @@ Cell[BoxData[
    3.718136373688675*^9, 3.718136398856514*^9}, 3.7181420095362377`*^9, 
    3.718142086674501*^9, 3.7181422929160337`*^9, 3.7181441441211157`*^9, 
    3.71814419985312*^9, 3.718144253744783*^9, 3.7181442914909477`*^9, 
-   3.7181443220499372`*^9, 3.718144552985174*^9}]
+   3.7181443220499372`*^9, 3.718144552726584*^9, 3.7181560249945993`*^9}]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -6492,7 +6490,7 @@ Cell[BoxData[
    3.7181362192821198`*^9}, 3.718136296179453*^9, 3.718136327243544*^9, 
    3.7181365308252373`*^9, 3.7181420336942673`*^9, 3.7181422975197697`*^9, 
    3.7181441708351307`*^9, 3.718144229452856*^9, {3.718144299450988*^9, 
-   3.7181443273893747`*^9}, 3.718144558169079*^9}],
+   3.7181443273893747`*^9}, 3.718144558169079*^9, 3.718156028096467*^9}],
 
 Cell[BoxData[
  TagBox[
@@ -10689,7 +10687,7 @@ Cell[BoxData[
    3.7181362192821198`*^9}, 3.718136296179453*^9, 3.718136327243544*^9, 
    3.7181365308252373`*^9, 3.7181420336942673`*^9, 3.7181422975197697`*^9, 
    3.7181441708351307`*^9, 3.718144229452856*^9, {3.718144299450988*^9, 
-   3.7181443273893747`*^9}, 3.718144558190507*^9}],
+   3.7181443273893747`*^9}, 3.718144558169079*^9, 3.718156028301008*^9}],
 
 Cell[BoxData[
  TagBox[
@@ -11653,7 +11651,7 @@ Cell[BoxData[
    3.7181362192821198`*^9}, 3.718136296179453*^9, 3.718136327243544*^9, 
    3.7181365308252373`*^9, 3.7181420336942673`*^9, 3.7181422975197697`*^9, 
    3.7181441708351307`*^9, 3.718144229452856*^9, {3.718144299450988*^9, 
-   3.7181443273893747`*^9}, 3.718144558405942*^9}]
+   3.7181443273893747`*^9}, 3.718144558169079*^9, 3.718156028311163*^9}]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -11691,7 +11689,8 @@ Cell[BoxData[{
 Cell[BoxData[
  RowBox[{"{", 
   RowBox[{"19", ",", "98"}], "}"}]], "Output",
- CellChangeTimes->{3.7181445994194098`*^9, 3.718144793298849*^9}],
+ CellChangeTimes->{3.7181445994194098`*^9, 3.718144793298849*^9, 
+  3.71815603150828*^9}],
 
 Cell[BoxData[
  TagBox[
@@ -12520,7 +12519,8 @@ Cell[BoxData[
       "ac_e", "acald_e", "akg_e", "co2_e", "fum_e", "glc__D_e", "gln__L_e", 
        "glu__L_e", "glyc_e", "h2o_e", "h_e", "lac__D_e", "mal__L_e", "nh4_e", 
        "o2_e", "pi_e", "pyr_e", "succ_e", "toh_e"}}]]]], "Output",
- CellChangeTimes->{3.7181445994194098`*^9, 3.7181447933072767`*^9}],
+ CellChangeTimes->{3.7181445994194098`*^9, 3.718144793298849*^9, 
+  3.7181560315133047`*^9}],
 
 Cell[BoxData[
  TagBox[
@@ -12859,7 +12859,8 @@ Cell[BoxData[
       "ac_e", "acald_e", "akg_e", "co2_e", "fum_e", "glc__D_e", "gln__L_e", 
        "glu__L_e", "glyc_e", "h2o_e", "h_e", "lac__D_e", "mal__L_e", "nh4_e", 
        "o2_e", "pi_e", "pyr_e", "succ_e", "toh_e"}}]]]], "Output",
- CellChangeTimes->{3.7181445994194098`*^9, 3.7181447933599987`*^9}]
+ CellChangeTimes->{3.7181445994194098`*^9, 3.718144793298849*^9, 
+  3.718156031542203*^9}]
 }, Open  ]]
 },
 WindowSize->{1440, 806},
@@ -12883,27 +12884,27 @@ CellTagsIndex->{}
 Notebook[{
 Cell[557, 20, 364, 8, 28, "Input"],
 Cell[CellGroupData[{
-Cell[946, 32, 164670, 2457, 4755, "Input"],
-Cell[165619, 2491, 379, 7, 28, "Output"],
-Cell[166001, 2500, 92009, 1674, 1402, "Output"]
+Cell[946, 32, 164579, 2455, 4755, "Input"],
+Cell[165528, 2489, 401, 7, 28, "Output"],
+Cell[165932, 2498, 92032, 1674, 1402, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[258047, 4179, 1472, 32, 80, "Input"],
-Cell[259522, 4213, 874, 14, 28, "Output"],
-Cell[260399, 4229, 15744, 290, 122, "Output"],
-Cell[276146, 4521, 113866, 1913, 2642, "Output"]
+Cell[258001, 4177, 1472, 32, 80, "Input"],
+Cell[259476, 4211, 898, 14, 28, "Output"],
+Cell[260377, 4227, 15837, 290, 122, "Output"],
+Cell[276217, 4519, 113890, 1913, 2642, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[390049, 6439, 1960, 45, 97, "Input"],
-Cell[392012, 6486, 440, 8, 28, "Output"],
-Cell[392455, 6496, 239982, 4195, 1532, "Output"],
-Cell[632440, 10693, 56756, 962, 1384, "Output"]
+Cell[390144, 6437, 1960, 45, 97, "Input"],
+Cell[392107, 6484, 462, 8, 28, "Output"],
+Cell[392572, 6494, 240004, 4195, 1532, "Output"],
+Cell[632579, 10691, 56778, 962, 1384, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[689233, 11660, 1013, 28, 63, "Input"],
-Cell[690249, 11690, 141, 3, 28, "Output"],
-Cell[690393, 11695, 46709, 827, 372, "Output"],
-Cell[737105, 12524, 18787, 337, 404, "Output"]
+Cell[689394, 11658, 1013, 28, 63, "Input"],
+Cell[690410, 11688, 165, 4, 28, "Output"],
+Cell[690578, 11694, 46734, 828, 372, "Output"],
+Cell[737315, 12524, 18810, 338, 404, "Output"]
 }, Open  ]]
 }
 ]
