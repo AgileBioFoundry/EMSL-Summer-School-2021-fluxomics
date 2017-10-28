@@ -1,0 +1,1637 @@
+{
+"reactions":[
+{
+"id":"2DHGLCK",
+"name":"R_2DHGLCK",
+"metabolites":{
+"2dhglcn_p":-1.0,
+"6p2dhglcn_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":100.0,
+"gene_reaction_rule":"",
+"subsystem":"None",
+"notes":{
+"CARBON TRANSITIONS":[
+"2dhglcn_p -- 6p2dhglcn_c\tabcdef : abcdef"
+]
+}
+},
+{
+"id":"3PGbm",
+"name":"R_3PGbm",
+"metabolites":{
+"3pg_c":-1.0,
+"3pgbm_c":1.0
+},
+"lower_bound":11.0,
+"upper_bound":12.87805,
+"gene_reaction_rule":"",
+"subsystem":"None",
+"notes":{
+"CARBON TRANSITIONS":[
+"3pg_c -- 3pgbm_c\tabc : abc"
+]
+}
+},
+{
+"id":"ACCOAbm",
+"name":"R_ACCOAbm",
+"metabolites":{
+"accoa_c":-1.0,
+"accoabm_c":1.0
+},
+"lower_bound":16.0,
+"upper_bound":22.0,
+"gene_reaction_rule":"",
+"subsystem":"None",
+"notes":{
+"CARBON TRANSITIONS":[
+"accoa_c -- accoabm_c\tab : ab"
+]
+}
+},
+{
+"id":"ACONT",
+"name":"R_ACONT",
+"metabolites":{
+"cit_c":-1.0,
+"icit_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":100.0,
+"gene_reaction_rule":"",
+"subsystem":"None",
+"notes":{
+"CARBON TRANSITIONS":[
+"cit_c -- icit_c\tabcdef : abcdef"
+]
+}
+},
+{
+"id":"AKGDH",
+"name":"R_AKGDH",
+"metabolites":{
+"akg_c":-1.0,
+"co2_c":1.0,
+"succoa_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":100.0,
+"gene_reaction_rule":"",
+"subsystem":"None",
+"notes":{
+"CARBON TRANSITIONS":[
+"akg_c -- co2_c + succoa_c\tabcde : a + bcde"
+]
+}
+},
+{
+"id":"AKGbm",
+"name":"R_AKGbm",
+"metabolites":{
+"akg_c":-1.0,
+"akgbm_c":1.0
+},
+"lower_bound":10.0,
+"upper_bound":11.0,
+"gene_reaction_rule":"",
+"subsystem":"None",
+"notes":{
+"CARBON TRANSITIONS":[
+"akg_c -- akgbm_c\tabcde : abcde"
+]
+}
+},
+{
+"id":"CO2bm",
+"name":"R_CO2bm",
+"metabolites":{
+"co2_c":-1.0,
+"co2bm_c":1.0
+},
+"lower_bound":200.0,
+"upper_bound":400.0,
+"gene_reaction_rule":"",
+"subsystem":"None",
+"notes":{
+"CARBON TRANSITIONS":[
+"co2_c -- co2bm_c\ta : a"
+]
+}
+},
+{
+"id":"CS",
+"name":"R_CS",
+"metabolites":{
+"accoa_c":-1.0,
+"cit_c":1.0,
+"oaa_c":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":100.0,
+"gene_reaction_rule":"",
+"subsystem":"None",
+"notes":{
+"CARBON TRANSITIONS":[
+"oaa_c + accoa_c -- cit_c\tabcd + ef : dcbafe"
+]
+}
+},
+{
+"id":"DDPA",
+"name":"R_DDPA",
+"metabolites":{
+"2dda7p_c":1.0,
+"e4p_c":-1.0,
+"pep_c":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":100.0,
+"gene_reaction_rule":"",
+"subsystem":"None",
+"notes":{
+"CARBON TRANSITIONS":[
+"e4p_c + pep_c -- 2dda7p_c\tdefg + abc : abcdefg"
+]
+}
+},
+{
+"id":"DDPA_ex",
+"name":"R_DDPA_ex",
+"metabolites":{
+"2dda7p_e":1.0,
+"2dda7p_p":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":100.0,
+"gene_reaction_rule":"",
+"subsystem":"None",
+"notes":{
+"CARBON TRANSITIONS":[
+"2dda7p_p -- 2dda7p_e\tabcdefg : abcdefg"
+]
+}
+},
+{
+"id":"DDPA_pp",
+"name":"R_DDPA_pp",
+"metabolites":{
+"2dda7p_c":-1.0,
+"2dda7p_p":1.0
+},
+"lower_bound":0.0,
+"upper_bound":100.0,
+"gene_reaction_rule":"",
+"subsystem":"None",
+"notes":{
+"CARBON TRANSITIONS":[
+"2dda7p_c -- 2dda7p_p\tabcdefg : abcdefg"
+]
+}
+},
+{
+"id":"E4Pbm",
+"name":"R_E4Pbm",
+"metabolites":{
+"e4p_c":-1.0,
+"e4pbm_c":1.0
+},
+"lower_bound":1.0,
+"upper_bound":2.0,
+"gene_reaction_rule":"",
+"subsystem":"None",
+"notes":{
+"CARBON TRANSITIONS":[
+"e4p_c -- e4pbm_c\tabcd : abcd"
+]
+}
+},
+{
+"id":"EDA",
+"name":"R_EDA",
+"metabolites":{
+"2ddg6p_c":-1.0,
+"g3p_c":1.0,
+"pyr_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":100.0,
+"gene_reaction_rule":"",
+"subsystem":"None",
+"notes":{
+"CARBON TRANSITIONS":[
+"2ddg6p_c -- pyr_c + g3p_c\tabcdef : abc + def"
+]
+}
+},
+{
+"id":"EDD",
+"name":"R_EDD",
+"metabolites":{
+"2ddg6p_c":1.0,
+"6pgc_c":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":100.0,
+"gene_reaction_rule":"",
+"subsystem":"None",
+"notes":{
+"CARBON TRANSITIONS":[
+"6pgc_c -- 2ddg6p_c\tabcdef : abcdef"
+]
+}
+},
+{
+"id":"ENO",
+"name":"R_ENO",
+"metabolites":{
+"2pg_c":-1.0,
+"pep_c":1.0
+},
+"lower_bound":-100.0,
+"upper_bound":100.0,
+"gene_reaction_rule":"",
+"subsystem":"None",
+"notes":{
+"CARBON TRANSITIONS":[
+"2pg_c == pep_c\tabc : abc"
+]
+}
+},
+{
+"id":"F6Pbm",
+"name":"R_F6Pbm",
+"metabolites":{
+"f6p_c":-1.0,
+"f6pbm_c":1.0
+},
+"lower_bound":0.1,
+"upper_bound":1.0,
+"gene_reaction_rule":"",
+"subsystem":"None",
+"notes":{
+"CARBON TRANSITIONS":[
+"f6p_c -- f6pbm_c\tabcdef : abcdef"
+]
+}
+},
+{
+"id":"FBA",
+"name":"R_FBA",
+"metabolites":{
+"dhap_c":1.0,
+"fdp_c":-1.0,
+"g3p_c":1.0
+},
+"lower_bound":-100.0,
+"upper_bound":100.0,
+"gene_reaction_rule":"",
+"subsystem":"None",
+"notes":{
+"CARBON TRANSITIONS":[
+"fdp_c == dhap_c + g3p_c\tabcdef : def + cba"
+]
+}
+},
+{
+"id":"FBP",
+"name":"R_FBP",
+"metabolites":{
+"f6p_c":1.0,
+"fdp_c":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":100.0,
+"gene_reaction_rule":"",
+"subsystem":"None",
+"notes":{
+"CARBON TRANSITIONS":[
+"fdp_c -- f6p_c\tabcdef : abcdef"
+]
+}
+},
+{
+"id":"FUM1",
+"name":"R_FUM1",
+"metabolites":{
+"fum_c":-1.0,
+"mal_L_c":1.0
+},
+"lower_bound":-100.0,
+"upper_bound":100.0,
+"gene_reaction_rule":"",
+"subsystem":"None",
+"notes":{
+"CARBON TRANSITIONS":[
+"fum_c == mal_L_c\tabcd : abcd"
+]
+}
+},
+{
+"id":"G3Pbm",
+"name":"R_G3Pbm",
+"metabolites":{
+"g3p_c":-1.0,
+"g3pbm_c":1.0
+},
+"lower_bound":0.5,
+"upper_bound":2.0,
+"gene_reaction_rule":"",
+"subsystem":"None",
+"notes":{
+"CARBON TRANSITIONS":[
+"g3p_c -- g3pbm_c\tabc : abc"
+]
+}
+},
+{
+"id":"G6PDH2r",
+"name":"R_G6PDH2r",
+"metabolites":{
+"6pgl_c":1.0,
+"g6p_c":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":100.0,
+"gene_reaction_rule":"",
+"subsystem":"None",
+"notes":{
+"CARBON TRANSITIONS":[
+"g6p_c -- 6pgl_c\tabcdef : abcdef"
+]
+}
+},
+{
+"id":"G6Pbm",
+"name":"R_G6Pbm",
+"metabolites":{
+"g6p_c":-1.0,
+"g6pbm_c":1.0
+},
+"lower_bound":0.48496,
+"upper_bound":1.0,
+"gene_reaction_rule":"",
+"subsystem":"None",
+"notes":{
+"CARBON TRANSITIONS":[
+"g6p_c -- g6pbm_c\tabcdef : abcdef"
+]
+}
+},
+{
+"id":"GADktpp",
+"name":"R_GADktpp",
+"metabolites":{
+"2dhglcn_p":1.0,
+"glcn_p":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":100.0,
+"gene_reaction_rule":"",
+"subsystem":"None",
+"notes":{
+"CARBON TRANSITIONS":[
+"glcn_p -- 2dhglcn_p\tabcdef : abcdef"
+]
+}
+},
+{
+"id":"GAPD",
+"name":"R_GAPD",
+"metabolites":{
+"13dpg_c":1.0,
+"g3p_c":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":100.0,
+"gene_reaction_rule":"",
+"subsystem":"None",
+"notes":{
+"CARBON TRANSITIONS":[
+"g3p_c -- 13dpg_c\tabc : abc"
+]
+}
+},
+{
+"id":"GLCDpp",
+"name":"R_GLCDpp",
+"metabolites":{
+"glc_D_p":-1.0,
+"glcn_p":1.0
+},
+"lower_bound":0.0,
+"upper_bound":100.0,
+"gene_reaction_rule":"",
+"subsystem":"None",
+"notes":{
+"CARBON TRANSITIONS":[
+"glc_D_p -- glcn_p\tabcdef : abcdef"
+]
+}
+},
+{
+"id":"GLCtex",
+"name":"R_GLCtex",
+"metabolites":{
+"glc_D_e":-1.0,
+"glc_D_p":1.0
+},
+"lower_bound":100.0,
+"upper_bound":100.0,
+"gene_reaction_rule":"",
+"subsystem":"None",
+"notes":{
+"CARBON TRANSITIONS":[
+"glc_D_e -- glc_D_p\tabcdef : abcdef"
+]
+}
+},
+{
+"id":"GND",
+"name":"R_GND",
+"metabolites":{
+"6pgc_c":-1.0,
+"co2_c":1.0,
+"ru5p_D_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":100.0,
+"gene_reaction_rule":"",
+"subsystem":"None",
+"notes":{
+"CARBON TRANSITIONS":[
+"6pgc_c -- ru5p_D_c + co2_c\tabcdef : bcdef + a"
+]
+}
+},
+{
+"id":"GNK",
+"name":"R_GNK",
+"metabolites":{
+"6pgc_c":1.0,
+"glcn_p":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":100.0,
+"gene_reaction_rule":"",
+"subsystem":"None",
+"notes":{
+"CARBON TRANSITIONS":[
+"glcn_p -- 6pgc_c\tabcdef : abcdef"
+]
+}
+},
+{
+"id":"HEX1",
+"name":"R_HEX1",
+"metabolites":{
+"g6p_c":1.0,
+"glc_D_p":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":100.0,
+"gene_reaction_rule":"",
+"subsystem":"None",
+"notes":{
+"CARBON TRANSITIONS":[
+"glc_D_p -- g6p_c\tabcdef : abcdef"
+]
+}
+},
+{
+"id":"ICDHyr",
+"name":"R_ICDHyr",
+"metabolites":{
+"akg_c":1.0,
+"co2_c":1.0,
+"icit_c":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":100.0,
+"gene_reaction_rule":"",
+"subsystem":"None",
+"notes":{
+"CARBON TRANSITIONS":[
+"icit_c -- akg_c + co2_c\tabcdef : abcef + d"
+]
+}
+},
+{
+"id":"ICL",
+"name":"R_ICL",
+"metabolites":{
+"glx_c":1.0,
+"icit_c":-1.0,
+"succ_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":100.0,
+"gene_reaction_rule":"",
+"subsystem":"None",
+"notes":{
+"CARBON TRANSITIONS":[
+"icit_c -- glx_c + succ_c\tabcdef : ab + fecd"
+]
+}
+},
+{
+"id":"MALS",
+"name":"R_MALS",
+"metabolites":{
+"accoa_c":-1.0,
+"glx_c":-1.0,
+"mal_L_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":100.0,
+"gene_reaction_rule":"",
+"subsystem":"None",
+"notes":{
+"CARBON TRANSITIONS":[
+"glx_c + accoa_c -- mal_L_c\tab + cd : abdc"
+]
+}
+},
+{
+"id":"MDH",
+"name":"R_MDH",
+"metabolites":{
+"mal_L_c":-1.0,
+"oaa_c":1.0
+},
+"lower_bound":-100.0,
+"upper_bound":100.0,
+"gene_reaction_rule":"",
+"subsystem":"None",
+"notes":{
+"CARBON TRANSITIONS":[
+"mal_L_c == oaa_c\tabcd : (abcd;dcba)"
+]
+}
+},
+{
+"id":"ME1",
+"name":"R_ME1",
+"metabolites":{
+"co2_c":1.0,
+"mal_L_c":-1.0,
+"pyr_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":100.0,
+"gene_reaction_rule":"",
+"subsystem":"None",
+"notes":{
+"CARBON TRANSITIONS":[
+"mal_L_c -- pyr_c + co2_c\tabcd : abc + d"
+]
+}
+},
+{
+"id":"OAADC",
+"name":"R_OAADC",
+"metabolites":{
+"co2_c":-1.0,
+"oaa_c":1.0,
+"pyr_c":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":100.0,
+"gene_reaction_rule":"",
+"subsystem":"None",
+"notes":{
+"CARBON TRANSITIONS":[
+"pyr_c + co2_c -- oaa_c\tabc + d : abcd"
+]
+}
+},
+{
+"id":"OAAbm",
+"name":"R_OAAbm",
+"metabolites":{
+"oaa_c":-1.0,
+"oaabm_c":1.0
+},
+"lower_bound":8.0,
+"upper_bound":11.816075,
+"gene_reaction_rule":"",
+"subsystem":"None",
+"notes":{
+"CARBON TRANSITIONS":[
+"oaa_c -- oaabm_c\tabcd : abcd"
+]
+}
+},
+{
+"id":"PDH",
+"name":"R_PDH",
+"metabolites":{
+"accoa_c":1.0,
+"co2_c":1.0,
+"pyr_c":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":100.0,
+"gene_reaction_rule":"",
+"subsystem":"None",
+"notes":{
+"CARBON TRANSITIONS":[
+"pyr_c -- co2_c + accoa_c\tabc : a + bc"
+]
+}
+},
+{
+"id":"PEPbm",
+"name":"R_PEPbm",
+"metabolites":{
+"pep_c":-1.0,
+"pepbm_c":1.0
+},
+"lower_bound":9.0,
+"upper_bound":12.48823,
+"gene_reaction_rule":"",
+"subsystem":"None",
+"notes":{
+"CARBON TRANSITIONS":[
+"pep_c -- pepbm_c\tabc : abc"
+]
+}
+},
+{
+"id":"PGI",
+"name":"R_PGI",
+"metabolites":{
+"f6p_c":1.0,
+"g6p_c":-1.0
+},
+"lower_bound":-100.0,
+"upper_bound":100.0,
+"gene_reaction_rule":"",
+"subsystem":"None",
+"notes":{
+"CARBON TRANSITIONS":[
+"g6p_c == f6p_c\tabcdef : abcdef"
+]
+}
+},
+{
+"id":"PGK",
+"name":"R_PGK",
+"metabolites":{
+"13dpg_c":-1.0,
+"3pg_c":1.0
+},
+"lower_bound":-100.0,
+"upper_bound":100.0,
+"gene_reaction_rule":"",
+"subsystem":"None",
+"notes":{
+"CARBON TRANSITIONS":[
+"13dpg_c == 3pg_c\tabc : abc"
+]
+}
+},
+{
+"id":"PGL",
+"name":"R_PGL",
+"metabolites":{
+"6pgc_c":1.0,
+"6pgl_c":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":100.0,
+"gene_reaction_rule":"",
+"subsystem":"None",
+"notes":{
+"CARBON TRANSITIONS":[
+"6pgl_c -- 6pgc_c\tabcdef : abcdef"
+]
+}
+},
+{
+"id":"PGLCNDH",
+"name":"R_PGLCNDH",
+"metabolites":{
+"6p2dhglcn_c":-1.0,
+"6pgc_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":100.0,
+"gene_reaction_rule":"",
+"subsystem":"None",
+"notes":{
+"CARBON TRANSITIONS":[
+"6p2dhglcn_c -- 6pgc_c\tabcdef : abcdef"
+]
+}
+},
+{
+"id":"PGM",
+"name":"R_PGM",
+"metabolites":{
+"2pg_c":1.0,
+"3pg_c":-1.0
+},
+"lower_bound":-100.0,
+"upper_bound":100.0,
+"gene_reaction_rule":"",
+"subsystem":"None",
+"notes":{
+"CARBON TRANSITIONS":[
+"3pg_c == 2pg_c\tabc : abc"
+]
+}
+},
+{
+"id":"PPC",
+"name":"R_PPC",
+"metabolites":{
+"co2_c":-1.0,
+"oaa_c":1.0,
+"pep_c":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":100.0,
+"gene_reaction_rule":"",
+"subsystem":"None",
+"notes":{
+"CARBON TRANSITIONS":[
+"pep_c + co2_c -- oaa_c\tabc + d : abcd"
+]
+}
+},
+{
+"id":"PYK",
+"name":"R_PYK",
+"metabolites":{
+"pep_c":-1.0,
+"pyr_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":100.0,
+"gene_reaction_rule":"",
+"subsystem":"None",
+"notes":{
+"CARBON TRANSITIONS":[
+"pep_c -- pyr_c\tabc : abc"
+]
+}
+},
+{
+"id":"PYRbm",
+"name":"R_PYRbm",
+"metabolites":{
+"pyr_c":-1.0,
+"pyrbm_c":1.0
+},
+"lower_bound":20.0,
+"upper_bound":28.0,
+"gene_reaction_rule":"",
+"subsystem":"None",
+"notes":{
+"CARBON TRANSITIONS":[
+"pyr_c -- pyrbm_c\tabc : abc"
+]
+}
+},
+{
+"id":"R5Pbm",
+"name":"R_R5Pbm",
+"metabolites":{
+"r5p_c":-1.0,
+"r5pbm_c":1.0
+},
+"lower_bound":4.0,
+"upper_bound":6.24598,
+"gene_reaction_rule":"",
+"subsystem":"None",
+"notes":{
+"CARBON TRANSITIONS":[
+"r5p_c -- r5pbm_c\tabcde : abcde"
+]
+}
+},
+{
+"id":"RPE",
+"name":"R_RPE",
+"metabolites":{
+"ru5p_D_c":-1.0,
+"xu5p_D_c":1.0
+},
+"lower_bound":-100.0,
+"upper_bound":100.0,
+"gene_reaction_rule":"",
+"subsystem":"None",
+"notes":{
+"CARBON TRANSITIONS":[
+"ru5p_D_c == xu5p_D_c\tabcde : abcde"
+]
+}
+},
+{
+"id":"RPI",
+"name":"R_RPI",
+"metabolites":{
+"r5p_c":-1.0,
+"ru5p_D_c":1.0
+},
+"lower_bound":-100.0,
+"upper_bound":100.0,
+"gene_reaction_rule":"",
+"subsystem":"None",
+"notes":{
+"CARBON TRANSITIONS":[
+"r5p_c == ru5p_D_c\tabcde : abcde"
+]
+}
+},
+{
+"id":"Ri5Pbm",
+"name":"R_Ri5Pbm",
+"metabolites":{
+"ru5p_D_c":-1.0,
+"ru5pbm_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1.0,
+"gene_reaction_rule":"",
+"subsystem":"None",
+"notes":{
+"CARBON TRANSITIONS":[
+"ru5p_D_c -- ru5pbm_c\tabcde : abcde"
+]
+}
+},
+{
+"id":"SUCDi",
+"name":"R_SUCDi",
+"metabolites":{
+"fum_c":1.0,
+"succ_c":-1.0
+},
+"lower_bound":-100.0,
+"upper_bound":100.0,
+"gene_reaction_rule":"",
+"subsystem":"None",
+"notes":{
+"CARBON TRANSITIONS":[
+"succ_c == fum_c\tabcd : abcd"
+]
+}
+},
+{
+"id":"SUCOAS",
+"name":"R_SUCOAS",
+"metabolites":{
+"succ_c":-1.0,
+"succoa_c":1.0
+},
+"lower_bound":-100.0,
+"upper_bound":100.0,
+"gene_reaction_rule":"",
+"subsystem":"None",
+"notes":{
+"CARBON TRANSITIONS":[
+"succ_c == succoa_c\tbcde : bcde"
+]
+}
+},
+{
+"id":"TA1",
+"name":"R_TA1",
+"metabolites":{
+"TAC3_c":1.0,
+"f6p_c":-1.0,
+"g3p_c":1.0
+},
+"lower_bound":-100.0,
+"upper_bound":100.0,
+"gene_reaction_rule":"",
+"subsystem":"None",
+"notes":{
+"CARBON TRANSITIONS":[
+"f6p_c == TAC3_c + g3p_c\tabcdef : abc + def"
+]
+}
+},
+{
+"id":"TA2",
+"name":"R_TA2",
+"metabolites":{
+"TAC3_c":1.0,
+"e4p_c":1.0,
+"s7p_c":-1.0
+},
+"lower_bound":-100.0,
+"upper_bound":100.0,
+"gene_reaction_rule":"",
+"subsystem":"None",
+"notes":{
+"CARBON TRANSITIONS":[
+"s7p_c == TAC3_c + e4p_c\tabcdefg : abc + defg"
+]
+}
+},
+{
+"id":"TK1",
+"name":"R_TK1",
+"metabolites":{
+"TKC2_c":1.0,
+"g3p_c":1.0,
+"xu5p_D_c":-1.0
+},
+"lower_bound":-100.0,
+"upper_bound":100.0,
+"gene_reaction_rule":"",
+"subsystem":"None",
+"notes":{
+"CARBON TRANSITIONS":[
+"xu5p_D_c == TKC2_c + g3p_c\tabcde : ab + cde"
+]
+}
+},
+{
+"id":"TK2",
+"name":"R_TK2",
+"metabolites":{
+"TKC2_c":1.0,
+"e4p_c":1.0,
+"f6p_c":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":100.0,
+"gene_reaction_rule":"",
+"subsystem":"None",
+"notes":{
+"CARBON TRANSITIONS":[
+"f6p_c -- TKC2_c + e4p_c\tabcdef : ab + cdef"
+]
+}
+},
+{
+"id":"TK3",
+"name":"R_TK3",
+"metabolites":{
+"TKC2_c":1.0,
+"r5p_c":1.0,
+"s7p_c":-1.0
+},
+"lower_bound":-100.0,
+"upper_bound":100.0,
+"gene_reaction_rule":"",
+"subsystem":"None",
+"notes":{
+"CARBON TRANSITIONS":[
+"s7p_c == TKC2_c + r5p_c\tabcdefg : ab + cdefg"
+]
+}
+},
+{
+"id":"TPI",
+"name":"R_TPI",
+"metabolites":{
+"dhap_c":-1.0,
+"g3p_c":1.0
+},
+"lower_bound":-100.0,
+"upper_bound":100.0,
+"gene_reaction_rule":"",
+"subsystem":"None",
+"notes":{
+"CARBON TRANSITIONS":[
+"dhap_c == g3p_c\tabc : abc"
+]
+}
+}
+],
+"metabolites":[
+{
+"id":"13dpg_c",
+"name":"M_13dpg_c",
+"compartment":"Cytosol",
+"formula":"",
+"notes":{
+"CARBON NUMBER":[
+"3"
+]
+}
+},
+{
+"id":"2dda7p_c",
+"name":"M_2dda7p_c",
+"compartment":"Cytosol",
+"formula":"",
+"notes":{
+"CARBON NUMBER":[
+"7"
+]
+}
+},
+{
+"id":"2dda7p_e",
+"name":"M_2dda7p_e",
+"compartment":"Cytosol",
+"formula":"",
+"notes":{
+"CARBON NUMBER":[
+"7"
+]
+}
+},
+{
+"id":"2dda7p_p",
+"name":"M_2dda7p_p",
+"compartment":"Cytosol",
+"formula":"",
+"notes":{
+"CARBON NUMBER":[
+"7"
+]
+}
+},
+{
+"id":"2ddg6p_c",
+"name":"M_2ddg6p_c",
+"compartment":"Cytosol",
+"formula":"",
+"notes":{
+"CARBON NUMBER":[
+"6"
+]
+}
+},
+{
+"id":"2dhglcn_p",
+"name":"M_2dhglcn_p",
+"compartment":"Cytosol",
+"formula":"",
+"notes":{
+"CARBON NUMBER":[
+"6"
+]
+}
+},
+{
+"id":"2pg_c",
+"name":"M_2pg_c",
+"compartment":"Cytosol",
+"formula":"",
+"notes":{
+"CARBON NUMBER":[
+"3"
+]
+}
+},
+{
+"id":"3pg_c",
+"name":"M_3pg_c",
+"compartment":"Cytosol",
+"formula":"",
+"notes":{
+"DEST":[
+"0"
+],
+"CARBON NUMBER":[
+"3"
+]
+}
+},
+{
+"id":"3pgbm_c",
+"name":"M_3pgbm_c",
+"compartment":"Cytosol",
+"formula":"",
+"notes":{
+"CARBON NUMBER":[
+"3"
+]
+}
+},
+{
+"id":"6p2dhglcn_c",
+"name":"M_6p2dhglcn_c",
+"compartment":"Cytosol",
+"formula":"",
+"notes":{
+"CARBON NUMBER":[
+"6"
+]
+}
+},
+{
+"id":"6pgc_c",
+"name":"M_6pgc_c",
+"compartment":"Cytosol",
+"formula":"",
+"notes":{
+"CARBON NUMBER":[
+"6"
+]
+}
+},
+{
+"id":"6pgl_c",
+"name":"M_6pgl_c",
+"compartment":"Cytosol",
+"formula":"",
+"notes":{
+"CARBON NUMBER":[
+"6"
+]
+}
+},
+{
+"id":"TAC3_c",
+"name":"M_TAC3_c",
+"compartment":"Cytosol",
+"formula":"",
+"notes":{
+"CARBON NUMBER":[
+"3"
+]
+}
+},
+{
+"id":"TKC2_c",
+"name":"M_TKC2_c",
+"compartment":"Cytosol",
+"formula":"",
+"notes":{
+"CARBON NUMBER":[
+"2"
+]
+}
+},
+{
+"id":"accoa_c",
+"name":"M_accoa_c",
+"compartment":"Cytosol",
+"formula":"",
+"notes":{
+"CARBON NUMBER":[
+"2"
+]
+}
+},
+{
+"id":"accoabm_c",
+"name":"M_accoabm_c",
+"compartment":"Cytosol",
+"formula":"",
+"notes":{
+"CARBON NUMBER":[
+"2"
+]
+}
+},
+{
+"id":"akg_c",
+"name":"M_akg_c",
+"compartment":"Cytosol",
+"formula":"",
+"notes":{
+"DEST":[
+"0"
+],
+"CARBON NUMBER":[
+"5"
+]
+}
+},
+{
+"id":"akgbm_c",
+"name":"M_akgbm_c",
+"compartment":"Cytosol",
+"formula":"",
+"notes":{
+"CARBON NUMBER":[
+"5"
+]
+}
+},
+{
+"id":"cit_c",
+"name":"M_cit_c",
+"compartment":"Cytosol",
+"formula":"",
+"notes":{
+"DEST":[
+"0"
+],
+"CARBON NUMBER":[
+"6"
+]
+}
+},
+{
+"id":"co2_c",
+"name":"M_co2_c",
+"compartment":"Cytosol",
+"formula":"",
+"notes":{
+"CARBON NUMBER":[
+"1"
+]
+}
+},
+{
+"id":"co2bm_c",
+"name":"M_co2bm_c",
+"compartment":"Cytosol",
+"formula":"",
+"notes":{
+"CARBON NUMBER":[
+"1"
+]
+}
+},
+{
+"id":"dhap_c",
+"name":"M_dhap_c",
+"compartment":"Cytosol",
+"formula":"",
+"notes":{
+"DEST":[
+"0"
+],
+"CARBON NUMBER":[
+"3"
+]
+}
+},
+{
+"id":"e4p_c",
+"name":"M_e4p_c",
+"compartment":"Cytosol",
+"formula":"",
+"notes":{
+"CARBON NUMBER":[
+"4"
+]
+}
+},
+{
+"id":"e4pbm_c",
+"name":"M_e4pbm_c",
+"compartment":"Cytosol",
+"formula":"",
+"notes":{
+"CARBON NUMBER":[
+"4"
+]
+}
+},
+{
+"id":"f6p_c",
+"name":"M_f6p_c",
+"compartment":"Cytosol",
+"formula":"",
+"notes":{
+"DEST":[
+"0"
+],
+"CARBON NUMBER":[
+"6"
+]
+}
+},
+{
+"id":"f6pbm_c",
+"name":"M_f6pbm_c",
+"compartment":"Cytosol",
+"formula":"",
+"notes":{
+"CARBON NUMBER":[
+"6"
+]
+}
+},
+{
+"id":"fdp_c",
+"name":"M_fdp_c",
+"compartment":"Cytosol",
+"formula":"",
+"notes":{
+"CARBON NUMBER":[
+"6"
+]
+}
+},
+{
+"id":"fum_c",
+"name":"M_fum_c",
+"compartment":"Cytosol",
+"formula":"",
+"notes":{
+"DEST":[
+"0"
+],
+"CARBON NUMBER":[
+"4"
+]
+}
+},
+{
+"id":"g3p_c",
+"name":"M_g3p_c",
+"compartment":"Cytosol",
+"formula":"",
+"notes":{
+"DEST":[
+"0"
+],
+"CARBON NUMBER":[
+"3"
+]
+}
+},
+{
+"id":"g3pbm_c",
+"name":"M_g3pbm_c",
+"compartment":"Cytosol",
+"formula":"",
+"notes":{
+"CARBON NUMBER":[
+"3"
+]
+}
+},
+{
+"id":"g6p_c",
+"name":"M_g6p_c",
+"compartment":"Cytosol",
+"formula":"",
+"notes":{
+"DEST":[
+"0"
+],
+"CARBON NUMBER":[
+"6"
+]
+}
+},
+{
+"id":"g6pbm_c",
+"name":"M_g6pbm_c",
+"compartment":"Cytosol",
+"formula":"",
+"notes":{
+"CARBON NUMBER":[
+"6"
+]
+}
+},
+{
+"id":"glc_D_e",
+"name":"M_glc_D_e",
+"compartment":"Cytosol",
+"formula":"",
+"notes":{
+"FEED":[
+"0.4% Glucose: 80% 1-C 20% U"
+],
+"SOURCE":[
+""
+],
+"CARBON NUMBER":[
+"6"
+]
+}
+},
+{
+"id":"glc_D_p",
+"name":"M_glc_D_p",
+"compartment":"Cytosol",
+"formula":"",
+"notes":{
+"CARBON NUMBER":[
+"6"
+]
+}
+},
+{
+"id":"glcn_p",
+"name":"M_glcn_p",
+"compartment":"Cytosol",
+"formula":"",
+"notes":{
+"CARBON NUMBER":[
+"6"
+]
+}
+},
+{
+"id":"glx_c",
+"name":"M_glx_c",
+"compartment":"Cytosol",
+"formula":"",
+"notes":{
+"CARBON NUMBER":[
+"2"
+]
+}
+},
+{
+"id":"icit_c",
+"name":"M_icit_c",
+"compartment":"Cytosol",
+"formula":"",
+"notes":{
+"CARBON NUMBER":[
+"6"
+]
+}
+},
+{
+"id":"mal_L_c",
+"name":"M_mal_L_c",
+"compartment":"Cytosol",
+"formula":"",
+"notes":{
+"DEST":[
+"0"
+],
+"CARBON NUMBER":[
+"4"
+]
+}
+},
+{
+"id":"oaa_c",
+"name":"M_oaa_c",
+"compartment":"Cytosol",
+"formula":"",
+"notes":{
+"CARBON NUMBER":[
+"4"
+]
+}
+},
+{
+"id":"oaabm_c",
+"name":"M_oaabm_c",
+"compartment":"Cytosol",
+"formula":"",
+"notes":{
+"CARBON NUMBER":[
+"4"
+]
+}
+},
+{
+"id":"pep_c",
+"name":"M_pep_c",
+"compartment":"Cytosol",
+"formula":"",
+"notes":{
+"DEST":[
+"0"
+],
+"CARBON NUMBER":[
+"3"
+]
+}
+},
+{
+"id":"pepbm_c",
+"name":"M_pepbm_c",
+"compartment":"Cytosol",
+"formula":"",
+"notes":{
+"CARBON NUMBER":[
+"3"
+]
+}
+},
+{
+"id":"pyr_c",
+"name":"M_pyr_c",
+"compartment":"Cytosol",
+"formula":"",
+"notes":{
+"DEST":[
+"0"
+],
+"CARBON NUMBER":[
+"3"
+]
+}
+},
+{
+"id":"pyrbm_c",
+"name":"M_pyrbm_c",
+"compartment":"Cytosol",
+"formula":"",
+"notes":{
+"CARBON NUMBER":[
+"3"
+]
+}
+},
+{
+"id":"r5p_c",
+"name":"M_r5p_c",
+"compartment":"Cytosol",
+"formula":"",
+"notes":{
+"DEST":[
+"0"
+],
+"CARBON NUMBER":[
+"5"
+]
+}
+},
+{
+"id":"r5pbm_c",
+"name":"M_r5pbm_c",
+"compartment":"Cytosol",
+"formula":"",
+"notes":{
+"CARBON NUMBER":[
+"5"
+]
+}
+},
+{
+"id":"ru5p_D_c",
+"name":"M_ru5p_D_c",
+"compartment":"Cytosol",
+"formula":"",
+"notes":{
+"CARBON NUMBER":[
+"5"
+]
+}
+},
+{
+"id":"ru5pbm_c",
+"name":"M_ru5pbm_c",
+"compartment":"Cytosol",
+"formula":"",
+"notes":{
+"CARBON NUMBER":[
+"5"
+]
+}
+},
+{
+"id":"s7p_c",
+"name":"M_s7p_c",
+"compartment":"Cytosol",
+"formula":"",
+"notes":{
+"DEST":[
+"0"
+],
+"CARBON NUMBER":[
+"7"
+]
+}
+},
+{
+"id":"succ_c",
+"name":"M_succ_c",
+"compartment":"Cytosol",
+"formula":"",
+"notes":{
+"DEST":[
+"0"
+],
+"CARBON NUMBER":[
+"4"
+]
+}
+},
+{
+"id":"succoa_c",
+"name":"M_succoa_c",
+"compartment":"Cytosol",
+"formula":"",
+"notes":{
+"CARBON NUMBER":[
+"4"
+]
+}
+},
+{
+"id":"xu5p_D_c",
+"name":"M_xu5p_D_c",
+"compartment":"Cytosol",
+"formula":"",
+"notes":{
+"CARBON NUMBER":[
+"5"
+]
+}
+}
+],
+"genes":[],
+"id":"CO2bm",
+"compartments":{
+"Cytosol":"",
+"Extra_organism":""
+},
+"version":"1"
+}
