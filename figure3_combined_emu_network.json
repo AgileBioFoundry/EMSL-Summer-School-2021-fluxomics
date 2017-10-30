@@ -1,0 +1,141 @@
+{
+    "compartments": {},
+    "genes": [],
+    "id": "combined_EMU_model",
+    "metabolites": [
+        {
+            "compartment": "",
+            "id": "A_1_2_3",
+            "name": ""
+        },
+        {
+            "compartment": "",
+            "id": "A_1_2",
+            "name": ""
+        },
+        {
+            "compartment": "",
+            "id": "A_3",
+            "name": ""
+        },
+        {
+            "compartment": "",
+            "id": "B_1_2_3",
+            "name": ""
+        },
+        {
+            "compartment": "",
+            "id": "B_1_2",
+            "name": ""
+        },
+        {
+            "compartment": "",
+            "id": "D_1_2",
+            "name": ""
+        },
+        {
+            "compartment": "",
+            "id": "E_1_2_3",
+            "name": ""
+        }
+    ],
+    "reactions": [
+        {
+            "gene_reaction_rule": "",
+            "id": "R1",
+            "lower_bound": 0,
+            "metabolites": {
+                "A_1_2_3": -1,
+                "B_1_2_3": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "R2",
+            "lower_bound": 0,
+            "metabolites": {
+                "B_1_2_3": -1,
+                "E_1_2_3": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "R3",
+            "lower_bound": 0,
+            "metabolites": {
+                "A_3": -1,
+                "B_1_2_3": 1,
+                "D_1_2": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "R4",
+            "lower_bound": -1000,
+            "metabolites": {
+                "B_1_2": -1,
+                "D_1_2": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "R5",
+            "lower_bound": 0,
+            "metabolites": {
+                "A_1_2": -1,
+                "B_1_2": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "R6",
+            "lower_bound": 0,
+            "metabolites": {
+                "A_1_2_3": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "R7",
+            "lower_bound": 0,
+            "metabolites": {
+                "A_1_2": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "R8",
+            "lower_bound": 0,
+            "metabolites": {
+                "A_3": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "R9",
+            "lower_bound": 0,
+            "metabolites": {
+                "E_1_2_3": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        }
+    ],
+    "version": "1"
+}
