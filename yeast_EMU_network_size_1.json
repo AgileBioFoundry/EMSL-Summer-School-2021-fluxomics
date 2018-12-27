@@ -1,1457 +1,1457 @@
 {
     "compartments": {},
     "genes": [],
-    "id": "yeast_VerboseFullEMUNetwork.txt_size_1",
+    "id": "yeast_VerboseFullEMUNetwork.clean.txt_size_1",
     "metabolites": [
         {
             "compartment": "",
             "id": "13dpg_1",
-            "name": ""
+            "name": "13dpg"
         },
         {
             "compartment": "",
             "id": "13dpg_2",
-            "name": ""
+            "name": "13dpg"
         },
         {
             "compartment": "",
             "id": "13dpg_3",
-            "name": ""
+            "name": "13dpg"
         },
         {
             "compartment": "",
             "id": "23dhmb_m_5",
-            "name": ""
+            "name": "23dhmb_m"
         },
         {
             "compartment": "",
             "id": "2ippm_7",
-            "name": ""
+            "name": "2ippm"
         },
         {
             "compartment": "",
             "id": "2pg_1",
-            "name": ""
+            "name": "2pg"
         },
         {
             "compartment": "",
             "id": "2pg_2",
-            "name": ""
+            "name": "2pg"
         },
         {
             "compartment": "",
             "id": "2pg_3",
-            "name": ""
+            "name": "2pg"
         },
         {
             "compartment": "",
             "id": "3c2hmp_7",
-            "name": ""
+            "name": "3c2hmp"
         },
         {
             "compartment": "",
             "id": "3c3hmp_7",
-            "name": ""
+            "name": "3c3hmp"
         },
         {
             "compartment": "",
             "id": "3c3hmp_m_7",
-            "name": ""
+            "name": "3c3hmp_m"
         },
         {
             "compartment": "",
             "id": "3c4mop_7",
-            "name": ""
+            "name": "3c4mop"
         },
         {
             "compartment": "",
             "id": "3c4mop_m_7",
-            "name": ""
+            "name": "3c4mop_m"
         },
         {
             "compartment": "",
             "id": "3mob_5",
-            "name": ""
+            "name": "3mob"
         },
         {
             "compartment": "",
             "id": "3mob_m_5",
-            "name": ""
+            "name": "3mob_m"
         },
         {
             "compartment": "",
             "id": "3pg_1",
-            "name": ""
+            "name": "3pg"
         },
         {
             "compartment": "",
             "id": "3pg_2",
-            "name": ""
+            "name": "3pg"
         },
         {
             "compartment": "",
             "id": "3pg_3",
-            "name": ""
+            "name": "3pg"
         },
         {
             "compartment": "",
             "id": "3psme_10",
-            "name": ""
+            "name": "3psme"
         },
         {
             "compartment": "",
             "id": "4pasp_3",
-            "name": ""
+            "name": "4pasp"
         },
         {
             "compartment": "",
             "id": "4pasp_4",
-            "name": ""
+            "name": "4pasp"
         },
         {
             "compartment": "",
             "id": "6pgc_1",
-            "name": ""
+            "name": "6pgc"
         },
         {
             "compartment": "",
             "id": "6pgc_2",
-            "name": ""
+            "name": "6pgc"
         },
         {
             "compartment": "",
             "id": "6pgc_3",
-            "name": ""
+            "name": "6pgc"
         },
         {
             "compartment": "",
             "id": "6pgc_4",
-            "name": ""
+            "name": "6pgc"
         },
         {
             "compartment": "",
             "id": "6pgc_5",
-            "name": ""
+            "name": "6pgc"
         },
         {
             "compartment": "",
             "id": "6pgc_6",
-            "name": ""
+            "name": "6pgc"
         },
         {
             "compartment": "",
             "id": "6pgl_1",
-            "name": ""
+            "name": "6pgl"
         },
         {
             "compartment": "",
             "id": "6pgl_2",
-            "name": ""
+            "name": "6pgl"
         },
         {
             "compartment": "",
             "id": "6pgl_3",
-            "name": ""
+            "name": "6pgl"
         },
         {
             "compartment": "",
             "id": "6pgl_4",
-            "name": ""
+            "name": "6pgl"
         },
         {
             "compartment": "",
             "id": "6pgl_5",
-            "name": ""
+            "name": "6pgl"
         },
         {
             "compartment": "",
             "id": "6pgl_6",
-            "name": ""
+            "name": "6pgl"
         },
         {
             "compartment": "",
             "id": "6pgl_r_1",
-            "name": ""
+            "name": "6pgl_r"
         },
         {
             "compartment": "",
             "id": "6pgl_r_2",
-            "name": ""
+            "name": "6pgl_r"
         },
         {
             "compartment": "",
             "id": "6pgl_r_3",
-            "name": ""
+            "name": "6pgl_r"
         },
         {
             "compartment": "",
             "id": "6pgl_r_4",
-            "name": ""
+            "name": "6pgl_r"
         },
         {
             "compartment": "",
             "id": "6pgl_r_5",
-            "name": ""
+            "name": "6pgl_r"
         },
         {
             "compartment": "",
             "id": "6pgl_r_6",
-            "name": ""
+            "name": "6pgl_r"
         },
         {
             "compartment": "",
             "id": "TAC3_1",
-            "name": ""
+            "name": "TAC"
         },
         {
             "compartment": "",
             "id": "TAC3_2",
-            "name": ""
+            "name": "TAC"
         },
         {
             "compartment": "",
             "id": "TAC3_3",
-            "name": ""
+            "name": "TAC"
         },
         {
             "compartment": "",
             "id": "TKC2_1",
-            "name": ""
+            "name": "TKC"
         },
         {
             "compartment": "",
             "id": "TKC2_2",
-            "name": ""
+            "name": "TKC"
         },
         {
             "compartment": "",
             "id": "ac_1",
-            "name": ""
+            "name": "ac"
         },
         {
             "compartment": "",
             "id": "ac_2",
-            "name": ""
+            "name": "ac"
         },
         {
             "compartment": "",
             "id": "ac_e_1",
-            "name": ""
+            "name": "ac_e"
         },
         {
             "compartment": "",
             "id": "ac_e_2",
-            "name": ""
+            "name": "ac_e"
         },
         {
             "compartment": "",
             "id": "acald_1",
-            "name": ""
+            "name": "acald"
         },
         {
             "compartment": "",
             "id": "acald_2",
-            "name": ""
+            "name": "acald"
         },
         {
             "compartment": "",
             "id": "accoa_1",
-            "name": ""
+            "name": "accoa"
         },
         {
             "compartment": "",
             "id": "accoa_2",
-            "name": ""
+            "name": "accoa"
         },
         {
             "compartment": "",
             "id": "accoa_m_1",
-            "name": ""
+            "name": "accoa_m"
         },
         {
             "compartment": "",
             "id": "accoa_m_2",
-            "name": ""
+            "name": "accoa_m"
         },
         {
             "compartment": "",
             "id": "achms_5",
-            "name": ""
+            "name": "achms"
         },
         {
             "compartment": "",
             "id": "achms_6",
-            "name": ""
+            "name": "achms"
         },
         {
             "compartment": "",
             "id": "acser_4",
-            "name": ""
+            "name": "acser"
         },
         {
             "compartment": "",
             "id": "acser_5",
-            "name": ""
+            "name": "acser"
         },
         {
             "compartment": "",
             "id": "akg_1",
-            "name": ""
+            "name": "akg"
         },
         {
             "compartment": "",
             "id": "akg_2",
-            "name": ""
+            "name": "akg"
         },
         {
             "compartment": "",
             "id": "akg_3",
-            "name": ""
+            "name": "akg"
         },
         {
             "compartment": "",
             "id": "akg_4",
-            "name": ""
+            "name": "akg"
         },
         {
             "compartment": "",
             "id": "akg_5",
-            "name": ""
+            "name": "akg"
         },
         {
             "compartment": "",
             "id": "akg_m_1",
-            "name": ""
+            "name": "akg_m"
         },
         {
             "compartment": "",
             "id": "akg_m_2",
-            "name": ""
+            "name": "akg_m"
         },
         {
             "compartment": "",
             "id": "akg_m_3",
-            "name": ""
+            "name": "akg_m"
         },
         {
             "compartment": "",
             "id": "akg_m_4",
-            "name": ""
+            "name": "akg_m"
         },
         {
             "compartment": "",
             "id": "akg_m_5",
-            "name": ""
+            "name": "akg_m"
         },
         {
             "compartment": "",
             "id": "ala-L_1",
-            "name": ""
+            "name": "ala-L"
         },
         {
             "compartment": "",
             "id": "ala-L_2",
-            "name": ""
+            "name": "ala-L"
         },
         {
             "compartment": "",
             "id": "ala-L_3",
-            "name": ""
+            "name": "ala-L"
         },
         {
             "compartment": "",
             "id": "ala-L_m_1",
-            "name": ""
+            "name": "ala-L_m"
         },
         {
             "compartment": "",
             "id": "ala-L_m_2",
-            "name": ""
+            "name": "ala-L_m"
         },
         {
             "compartment": "",
             "id": "ala-L_m_3",
-            "name": ""
+            "name": "ala-L_m"
         },
         {
             "compartment": "",
             "id": "alac-S_m_5",
-            "name": ""
+            "name": "alac-S_m"
         },
         {
             "compartment": "",
             "id": "argsuc_10",
-            "name": ""
+            "name": "argsuc"
         },
         {
             "compartment": "",
             "id": "argsuc_7",
-            "name": ""
+            "name": "argsuc"
         },
         {
             "compartment": "",
             "id": "argsuc_8",
-            "name": ""
+            "name": "argsuc"
         },
         {
             "compartment": "",
             "id": "argsuc_9",
-            "name": ""
+            "name": "argsuc"
         },
         {
             "compartment": "",
             "id": "asp-L_1",
-            "name": ""
+            "name": "asp-L"
         },
         {
             "compartment": "",
             "id": "asp-L_2",
-            "name": ""
+            "name": "asp-L"
         },
         {
             "compartment": "",
             "id": "asp-L_3",
-            "name": ""
+            "name": "asp-L"
         },
         {
             "compartment": "",
             "id": "asp-L_4",
-            "name": ""
+            "name": "asp-L"
         },
         {
             "compartment": "",
             "id": "asp-L_m_1",
-            "name": ""
+            "name": "asp-L_m"
         },
         {
             "compartment": "",
             "id": "asp-L_m_2",
-            "name": ""
+            "name": "asp-L_m"
         },
         {
             "compartment": "",
             "id": "asp-L_m_3",
-            "name": ""
+            "name": "asp-L_m"
         },
         {
             "compartment": "",
             "id": "asp-L_m_4",
-            "name": ""
+            "name": "asp-L_m"
         },
         {
             "compartment": "",
             "id": "aspsa_3",
-            "name": ""
+            "name": "aspsa"
         },
         {
             "compartment": "",
             "id": "aspsa_4",
-            "name": ""
+            "name": "aspsa"
         },
         {
             "compartment": "",
             "id": "b124tc_m_5",
-            "name": ""
+            "name": "b124tc_m"
         },
         {
             "compartment": "",
             "id": "cbp_1",
-            "name": ""
+            "name": "cbp"
         },
         {
             "compartment": "",
             "id": "chor_10",
-            "name": ""
+            "name": "chor"
         },
         {
             "compartment": "",
             "id": "cit_1",
-            "name": ""
+            "name": "cit"
         },
         {
             "compartment": "",
             "id": "cit_2",
-            "name": ""
+            "name": "cit"
         },
         {
             "compartment": "",
             "id": "cit_3",
-            "name": ""
+            "name": "cit"
         },
         {
             "compartment": "",
             "id": "cit_4",
-            "name": ""
+            "name": "cit"
         },
         {
             "compartment": "",
             "id": "cit_5",
-            "name": ""
+            "name": "cit"
         },
         {
             "compartment": "",
             "id": "cit_6",
-            "name": ""
+            "name": "cit"
         },
         {
             "compartment": "",
             "id": "cit_m_1",
-            "name": ""
+            "name": "cit_m"
         },
         {
             "compartment": "",
             "id": "cit_m_2",
-            "name": ""
+            "name": "cit_m"
         },
         {
             "compartment": "",
             "id": "cit_m_3",
-            "name": ""
+            "name": "cit_m"
         },
         {
             "compartment": "",
             "id": "cit_m_4",
-            "name": ""
+            "name": "cit_m"
         },
         {
             "compartment": "",
             "id": "cit_m_5",
-            "name": ""
+            "name": "cit_m"
         },
         {
             "compartment": "",
             "id": "cit_m_6",
-            "name": ""
+            "name": "cit_m"
         },
         {
             "compartment": "",
             "id": "citr-L_6",
-            "name": ""
+            "name": "citr-L"
         },
         {
             "compartment": "",
             "id": "co2_1",
-            "name": ""
+            "name": "co"
         },
         {
             "compartment": "",
             "id": "co2_e_1",
-            "name": ""
+            "name": "co2_e"
         },
         {
             "compartment": "",
             "id": "co2_m_1",
-            "name": ""
+            "name": "co2_m"
         },
         {
             "compartment": "",
             "id": "dcamp_1",
-            "name": ""
+            "name": "dcamp"
         },
         {
             "compartment": "",
             "id": "dcamp_2",
-            "name": ""
+            "name": "dcamp"
         },
         {
             "compartment": "",
             "id": "dcamp_3",
-            "name": ""
+            "name": "dcamp"
         },
         {
             "compartment": "",
             "id": "dcamp_4",
-            "name": ""
+            "name": "dcamp"
         },
         {
             "compartment": "",
             "id": "dhap_1",
-            "name": ""
+            "name": "dhap"
         },
         {
             "compartment": "",
             "id": "dhap_2",
-            "name": ""
+            "name": "dhap"
         },
         {
             "compartment": "",
             "id": "dhap_3",
-            "name": ""
+            "name": "dhap"
         },
         {
             "compartment": "",
             "id": "e4p_1",
-            "name": ""
+            "name": "e4p"
         },
         {
             "compartment": "",
             "id": "e4p_2",
-            "name": ""
+            "name": "e4p"
         },
         {
             "compartment": "",
             "id": "e4p_3",
-            "name": ""
+            "name": "e4p"
         },
         {
             "compartment": "",
             "id": "e4p_4",
-            "name": ""
+            "name": "e4p"
         },
         {
             "compartment": "",
             "id": "etoh_1",
-            "name": ""
+            "name": "etoh"
         },
         {
             "compartment": "",
             "id": "etoh_2",
-            "name": ""
+            "name": "etoh"
         },
         {
             "compartment": "",
             "id": "etoh_e_1",
-            "name": ""
+            "name": "etoh_e"
         },
         {
             "compartment": "",
             "id": "etoh_e_2",
-            "name": ""
+            "name": "etoh_e"
         },
         {
             "compartment": "",
             "id": "f6p_1",
-            "name": ""
+            "name": "f6p"
         },
         {
             "compartment": "",
             "id": "f6p_2",
-            "name": ""
+            "name": "f6p"
         },
         {
             "compartment": "",
             "id": "f6p_3",
-            "name": ""
+            "name": "f6p"
         },
         {
             "compartment": "",
             "id": "f6p_4",
-            "name": ""
+            "name": "f6p"
         },
         {
             "compartment": "",
             "id": "f6p_5",
-            "name": ""
+            "name": "f6p"
         },
         {
             "compartment": "",
             "id": "f6p_6",
-            "name": ""
+            "name": "f6p"
         },
         {
             "compartment": "",
             "id": "fdp_1",
-            "name": ""
+            "name": "fdp"
         },
         {
             "compartment": "",
             "id": "fdp_2",
-            "name": ""
+            "name": "fdp"
         },
         {
             "compartment": "",
             "id": "fdp_3",
-            "name": ""
+            "name": "fdp"
         },
         {
             "compartment": "",
             "id": "fdp_4",
-            "name": ""
+            "name": "fdp"
         },
         {
             "compartment": "",
             "id": "fdp_5",
-            "name": ""
+            "name": "fdp"
         },
         {
             "compartment": "",
             "id": "fdp_6",
-            "name": ""
+            "name": "fdp"
         },
         {
             "compartment": "",
             "id": "fum_1",
-            "name": ""
+            "name": "fum"
         },
         {
             "compartment": "",
             "id": "fum_2",
-            "name": ""
+            "name": "fum"
         },
         {
             "compartment": "",
             "id": "fum_3",
-            "name": ""
+            "name": "fum"
         },
         {
             "compartment": "",
             "id": "fum_4",
-            "name": ""
+            "name": "fum"
         },
         {
             "compartment": "",
             "id": "fum_m_1",
-            "name": ""
+            "name": "fum_m"
         },
         {
             "compartment": "",
             "id": "fum_m_2",
-            "name": ""
+            "name": "fum_m"
         },
         {
             "compartment": "",
             "id": "fum_m_3",
-            "name": ""
+            "name": "fum_m"
         },
         {
             "compartment": "",
             "id": "fum_m_4",
-            "name": ""
+            "name": "fum_m"
         },
         {
             "compartment": "",
             "id": "g3p_1",
-            "name": ""
+            "name": "g3p"
         },
         {
             "compartment": "",
             "id": "g3p_2",
-            "name": ""
+            "name": "g3p"
         },
         {
             "compartment": "",
             "id": "g3p_3",
-            "name": ""
+            "name": "g3p"
         },
         {
             "compartment": "",
             "id": "g6p_1",
-            "name": ""
+            "name": "g6p"
         },
         {
             "compartment": "",
             "id": "g6p_2",
-            "name": ""
+            "name": "g6p"
         },
         {
             "compartment": "",
             "id": "g6p_3",
-            "name": ""
+            "name": "g6p"
         },
         {
             "compartment": "",
             "id": "g6p_4",
-            "name": ""
+            "name": "g6p"
         },
         {
             "compartment": "",
             "id": "g6p_5",
-            "name": ""
+            "name": "g6p"
         },
         {
             "compartment": "",
             "id": "g6p_6",
-            "name": ""
+            "name": "g6p"
         },
         {
             "compartment": "",
             "id": "g6p_r_1",
-            "name": ""
+            "name": "g6p_r"
         },
         {
             "compartment": "",
             "id": "g6p_r_2",
-            "name": ""
+            "name": "g6p_r"
         },
         {
             "compartment": "",
             "id": "g6p_r_3",
-            "name": ""
+            "name": "g6p_r"
         },
         {
             "compartment": "",
             "id": "g6p_r_4",
-            "name": ""
+            "name": "g6p_r"
         },
         {
             "compartment": "",
             "id": "g6p_r_5",
-            "name": ""
+            "name": "g6p_r"
         },
         {
             "compartment": "",
             "id": "g6p_r_6",
-            "name": ""
+            "name": "g6p_r"
         },
         {
             "compartment": "",
             "id": "glc-D_1",
-            "name": ""
+            "name": "glc-D"
         },
         {
             "compartment": "",
             "id": "glc-D_2",
-            "name": ""
+            "name": "glc-D"
         },
         {
             "compartment": "",
             "id": "glc-D_3",
-            "name": ""
+            "name": "glc-D"
         },
         {
             "compartment": "",
             "id": "glc-D_4",
-            "name": ""
+            "name": "glc-D"
         },
         {
             "compartment": "",
             "id": "glc-D_5",
-            "name": ""
+            "name": "glc-D"
         },
         {
             "compartment": "",
             "id": "glc-D_6",
-            "name": ""
+            "name": "glc-D"
         },
         {
             "compartment": "",
             "id": "glc-D_e_1",
-            "name": ""
+            "name": "glc-D_e"
         },
         {
             "compartment": "",
             "id": "glc-D_e_2",
-            "name": ""
+            "name": "glc-D_e"
         },
         {
             "compartment": "",
             "id": "glc-D_e_3",
-            "name": ""
+            "name": "glc-D_e"
         },
         {
             "compartment": "",
             "id": "glc-D_e_4",
-            "name": ""
+            "name": "glc-D_e"
         },
         {
             "compartment": "",
             "id": "glc-D_e_5",
-            "name": ""
+            "name": "glc-D_e"
         },
         {
             "compartment": "",
             "id": "glc-D_e_6",
-            "name": ""
+            "name": "glc-D_e"
         },
         {
             "compartment": "",
             "id": "gln-L_1",
-            "name": ""
+            "name": "gln-L"
         },
         {
             "compartment": "",
             "id": "gln-L_2",
-            "name": ""
+            "name": "gln-L"
         },
         {
             "compartment": "",
             "id": "gln-L_3",
-            "name": ""
+            "name": "gln-L"
         },
         {
             "compartment": "",
             "id": "gln-L_4",
-            "name": ""
+            "name": "gln-L"
         },
         {
             "compartment": "",
             "id": "gln-L_5",
-            "name": ""
+            "name": "gln-L"
         },
         {
             "compartment": "",
             "id": "glu-L_1",
-            "name": ""
+            "name": "glu-L"
         },
         {
             "compartment": "",
             "id": "glu-L_2",
-            "name": ""
+            "name": "glu-L"
         },
         {
             "compartment": "",
             "id": "glu-L_3",
-            "name": ""
+            "name": "glu-L"
         },
         {
             "compartment": "",
             "id": "glu-L_4",
-            "name": ""
+            "name": "glu-L"
         },
         {
             "compartment": "",
             "id": "glu-L_5",
-            "name": ""
+            "name": "glu-L"
         },
         {
             "compartment": "",
             "id": "glu-L_m_1",
-            "name": ""
+            "name": "glu-L_m"
         },
         {
             "compartment": "",
             "id": "glu-L_m_2",
-            "name": ""
+            "name": "glu-L_m"
         },
         {
             "compartment": "",
             "id": "glu-L_m_3",
-            "name": ""
+            "name": "glu-L_m"
         },
         {
             "compartment": "",
             "id": "glu-L_m_4",
-            "name": ""
+            "name": "glu-L_m"
         },
         {
             "compartment": "",
             "id": "glu-L_m_5",
-            "name": ""
+            "name": "glu-L_m"
         },
         {
             "compartment": "",
             "id": "glx_1",
-            "name": ""
+            "name": "glx"
         },
         {
             "compartment": "",
             "id": "glx_2",
-            "name": ""
+            "name": "glx"
         },
         {
             "compartment": "",
             "id": "hcit_m_5",
-            "name": ""
+            "name": "hcit_m"
         },
         {
             "compartment": "",
             "id": "hco3_1",
-            "name": ""
+            "name": "hco"
         },
         {
             "compartment": "",
             "id": "hicit_m_5",
-            "name": ""
+            "name": "hicit_m"
         },
         {
             "compartment": "",
             "id": "hom-L_3",
-            "name": ""
+            "name": "hom-L"
         },
         {
             "compartment": "",
             "id": "hom-L_4",
-            "name": ""
+            "name": "hom-L"
         },
         {
             "compartment": "",
             "id": "icit_1",
-            "name": ""
+            "name": "icit"
         },
         {
             "compartment": "",
             "id": "icit_2",
-            "name": ""
+            "name": "icit"
         },
         {
             "compartment": "",
             "id": "icit_3",
-            "name": ""
+            "name": "icit"
         },
         {
             "compartment": "",
             "id": "icit_4",
-            "name": ""
+            "name": "icit"
         },
         {
             "compartment": "",
             "id": "icit_5",
-            "name": ""
+            "name": "icit"
         },
         {
             "compartment": "",
             "id": "icit_6",
-            "name": ""
+            "name": "icit"
         },
         {
             "compartment": "",
             "id": "icit_m_1",
-            "name": ""
+            "name": "icit_m"
         },
         {
             "compartment": "",
             "id": "icit_m_2",
-            "name": ""
+            "name": "icit_m"
         },
         {
             "compartment": "",
             "id": "icit_m_3",
-            "name": ""
+            "name": "icit_m"
         },
         {
             "compartment": "",
             "id": "icit_m_4",
-            "name": ""
+            "name": "icit_m"
         },
         {
             "compartment": "",
             "id": "icit_m_5",
-            "name": ""
+            "name": "icit_m"
         },
         {
             "compartment": "",
             "id": "icit_m_6",
-            "name": ""
+            "name": "icit_m"
         },
         {
             "compartment": "",
             "id": "mal-L_1",
-            "name": ""
+            "name": "mal-L"
         },
         {
             "compartment": "",
             "id": "mal-L_2",
-            "name": ""
+            "name": "mal-L"
         },
         {
             "compartment": "",
             "id": "mal-L_3",
-            "name": ""
+            "name": "mal-L"
         },
         {
             "compartment": "",
             "id": "mal-L_4",
-            "name": ""
+            "name": "mal-L"
         },
         {
             "compartment": "",
             "id": "mal-L_m_1",
-            "name": ""
+            "name": "mal-L_m"
         },
         {
             "compartment": "",
             "id": "mal-L_m_2",
-            "name": ""
+            "name": "mal-L_m"
         },
         {
             "compartment": "",
             "id": "mal-L_m_3",
-            "name": ""
+            "name": "mal-L_m"
         },
         {
             "compartment": "",
             "id": "mal-L_m_4",
-            "name": ""
+            "name": "mal-L_m"
         },
         {
             "compartment": "",
             "id": "malcoa_1",
-            "name": ""
+            "name": "malcoa"
         },
         {
             "compartment": "",
             "id": "malcoa_2",
-            "name": ""
+            "name": "malcoa"
         },
         {
             "compartment": "",
             "id": "malcoa_3",
-            "name": ""
+            "name": "malcoa"
         },
         {
             "compartment": "",
             "id": "oaa_1",
-            "name": ""
+            "name": "oaa"
         },
         {
             "compartment": "",
             "id": "oaa_2",
-            "name": ""
+            "name": "oaa"
         },
         {
             "compartment": "",
             "id": "oaa_3",
-            "name": ""
+            "name": "oaa"
         },
         {
             "compartment": "",
             "id": "oaa_4",
-            "name": ""
+            "name": "oaa"
         },
         {
             "compartment": "",
             "id": "oaa_m_1",
-            "name": ""
+            "name": "oaa_m"
         },
         {
             "compartment": "",
             "id": "oaa_m_2",
-            "name": ""
+            "name": "oaa_m"
         },
         {
             "compartment": "",
             "id": "oaa_m_3",
-            "name": ""
+            "name": "oaa_m"
         },
         {
             "compartment": "",
             "id": "oaa_m_4",
-            "name": ""
+            "name": "oaa_m"
         },
         {
             "compartment": "",
             "id": "oxag_5",
-            "name": ""
+            "name": "oxag"
         },
         {
             "compartment": "",
             "id": "oxag_m_5",
-            "name": ""
+            "name": "oxag_m"
         },
         {
             "compartment": "",
             "id": "pep_1",
-            "name": ""
+            "name": "pep"
         },
         {
             "compartment": "",
             "id": "pep_2",
-            "name": ""
+            "name": "pep"
         },
         {
             "compartment": "",
             "id": "pep_3",
-            "name": ""
+            "name": "pep"
         },
         {
             "compartment": "",
             "id": "phom_3",
-            "name": ""
+            "name": "phom"
         },
         {
             "compartment": "",
             "id": "phom_4",
-            "name": ""
+            "name": "phom"
         },
         {
             "compartment": "",
             "id": "pphn_10",
-            "name": ""
+            "name": "pphn"
         },
         {
             "compartment": "",
             "id": "prpp_1",
-            "name": ""
+            "name": "prpp"
         },
         {
             "compartment": "",
             "id": "prpp_2",
-            "name": ""
+            "name": "prpp"
         },
         {
             "compartment": "",
             "id": "prpp_3",
-            "name": ""
+            "name": "prpp"
         },
         {
             "compartment": "",
             "id": "prpp_4",
-            "name": ""
+            "name": "prpp"
         },
         {
             "compartment": "",
             "id": "prpp_5",
-            "name": ""
+            "name": "prpp"
         },
         {
             "compartment": "",
             "id": "pyr_1",
-            "name": ""
+            "name": "pyr"
         },
         {
             "compartment": "",
             "id": "pyr_2",
-            "name": ""
+            "name": "pyr"
         },
         {
             "compartment": "",
             "id": "pyr_3",
-            "name": ""
+            "name": "pyr"
         },
         {
             "compartment": "",
             "id": "pyr_m_1",
-            "name": ""
+            "name": "pyr_m"
         },
         {
             "compartment": "",
             "id": "pyr_m_2",
-            "name": ""
+            "name": "pyr_m"
         },
         {
             "compartment": "",
             "id": "pyr_m_3",
-            "name": ""
+            "name": "pyr_m"
         },
         {
             "compartment": "",
             "id": "r5p_1",
-            "name": ""
+            "name": "r5p"
         },
         {
             "compartment": "",
             "id": "r5p_2",
-            "name": ""
+            "name": "r5p"
         },
         {
             "compartment": "",
             "id": "r5p_3",
-            "name": ""
+            "name": "r5p"
         },
         {
             "compartment": "",
             "id": "r5p_4",
-            "name": ""
+            "name": "r5p"
         },
         {
             "compartment": "",
             "id": "r5p_5",
-            "name": ""
+            "name": "r5p"
         },
         {
             "compartment": "",
             "id": "ru5p-D_1",
-            "name": ""
+            "name": "ru5p-D"
         },
         {
             "compartment": "",
             "id": "ru5p-D_2",
-            "name": ""
+            "name": "ru5p-D"
         },
         {
             "compartment": "",
             "id": "ru5p-D_3",
-            "name": ""
+            "name": "ru5p-D"
         },
         {
             "compartment": "",
             "id": "ru5p-D_4",
-            "name": ""
+            "name": "ru5p-D"
         },
         {
             "compartment": "",
             "id": "ru5p-D_5",
-            "name": ""
+            "name": "ru5p-D"
         },
         {
             "compartment": "",
             "id": "s7p_1",
-            "name": ""
+            "name": "s7p"
         },
         {
             "compartment": "",
             "id": "s7p_2",
-            "name": ""
+            "name": "s7p"
         },
         {
             "compartment": "",
             "id": "s7p_3",
-            "name": ""
+            "name": "s7p"
         },
         {
             "compartment": "",
             "id": "s7p_4",
-            "name": ""
+            "name": "s7p"
         },
         {
             "compartment": "",
             "id": "s7p_5",
-            "name": ""
+            "name": "s7p"
         },
         {
             "compartment": "",
             "id": "s7p_6",
-            "name": ""
+            "name": "s7p"
         },
         {
             "compartment": "",
             "id": "s7p_7",
-            "name": ""
+            "name": "s7p"
         },
         {
             "compartment": "",
             "id": "saccrp-L_1",
-            "name": ""
+            "name": "saccrp-L"
         },
         {
             "compartment": "",
             "id": "saccrp-L_2",
-            "name": ""
+            "name": "saccrp-L"
         },
         {
             "compartment": "",
             "id": "saccrp-L_3",
-            "name": ""
+            "name": "saccrp-L"
         },
         {
             "compartment": "",
             "id": "saccrp-L_4",
-            "name": ""
+            "name": "saccrp-L"
         },
         {
             "compartment": "",
             "id": "saccrp-L_5",
-            "name": ""
+            "name": "saccrp-L"
         },
         {
             "compartment": "",
             "id": "sdhlam_m_1",
-            "name": ""
+            "name": "sdhlam_m"
         },
         {
             "compartment": "",
             "id": "sdhlam_m_2",
-            "name": ""
+            "name": "sdhlam_m"
         },
         {
             "compartment": "",
             "id": "sdhlam_m_3",
-            "name": ""
+            "name": "sdhlam_m"
         },
         {
             "compartment": "",
             "id": "sdhlam_m_4",
-            "name": ""
+            "name": "sdhlam_m"
         },
         {
             "compartment": "",
             "id": "succ_1",
-            "name": ""
+            "name": "succ"
         },
         {
             "compartment": "",
             "id": "succ_2",
-            "name": ""
+            "name": "succ"
         },
         {
             "compartment": "",
             "id": "succ_3",
-            "name": ""
+            "name": "succ"
         },
         {
             "compartment": "",
             "id": "succ_4",
-            "name": ""
+            "name": "succ"
         },
         {
             "compartment": "",
             "id": "succ_m_1",
-            "name": ""
+            "name": "succ_m"
         },
         {
             "compartment": "",
             "id": "succ_m_2",
-            "name": ""
+            "name": "succ_m"
         },
         {
             "compartment": "",
             "id": "succ_m_3",
-            "name": ""
+            "name": "succ_m"
         },
         {
             "compartment": "",
             "id": "succ_m_4",
-            "name": ""
+            "name": "succ_m"
         },
         {
             "compartment": "",
             "id": "succoa_m_1",
-            "name": ""
+            "name": "succoa_m"
         },
         {
             "compartment": "",
             "id": "succoa_m_2",
-            "name": ""
+            "name": "succoa_m"
         },
         {
             "compartment": "",
             "id": "succoa_m_3",
-            "name": ""
+            "name": "succoa_m"
         },
         {
             "compartment": "",
             "id": "succoa_m_4",
-            "name": ""
+            "name": "succoa_m"
         },
         {
             "compartment": "",
             "id": "thr-L_3",
-            "name": ""
+            "name": "thr-L"
         },
         {
             "compartment": "",
             "id": "thr-L_4",
-            "name": ""
+            "name": "thr-L"
         },
         {
             "compartment": "",
             "id": "thr-L_m_3",
-            "name": ""
+            "name": "thr-L_m"
         },
         {
             "compartment": "",
             "id": "thr-L_m_4",
-            "name": ""
+            "name": "thr-L_m"
         },
         {
             "compartment": "",
             "id": "val-L_5",
-            "name": ""
+            "name": "val-L"
         },
         {
             "compartment": "",
             "id": "xu5p-D_1",
-            "name": ""
+            "name": "xu5p-D"
         },
         {
             "compartment": "",
             "id": "xu5p-D_2",
-            "name": ""
+            "name": "xu5p-D"
         },
         {
             "compartment": "",
             "id": "xu5p-D_3",
-            "name": ""
+            "name": "xu5p-D"
         },
         {
             "compartment": "",
             "id": "xu5p-D_4",
-            "name": ""
+            "name": "xu5p-D"
         },
         {
             "compartment": "",
             "id": "xu5p-D_5",
-            "name": ""
+            "name": "xu5p-D"
         }
     ],
     "reactions": [
@@ -4670,7 +4670,7 @@
                 "glc-D_e_1": 1
             },
             "name": "",
-            "upper_bound": 1000
+            "upper_bound": 10
         },
         {
             "gene_reaction_rule": "",
@@ -4680,7 +4680,7 @@
                 "glc-D_e_2": 1
             },
             "name": "",
-            "upper_bound": 1000
+            "upper_bound": 10
         },
         {
             "gene_reaction_rule": "",
@@ -4690,7 +4690,7 @@
                 "glc-D_e_3": 1
             },
             "name": "",
-            "upper_bound": 1000
+            "upper_bound": 10
         },
         {
             "gene_reaction_rule": "",
@@ -4700,7 +4700,7 @@
                 "glc-D_e_4": 1
             },
             "name": "",
-            "upper_bound": 1000
+            "upper_bound": 10
         },
         {
             "gene_reaction_rule": "",
@@ -4710,7 +4710,7 @@
                 "glc-D_e_5": 1
             },
             "name": "",
-            "upper_bound": 1000
+            "upper_bound": 10
         },
         {
             "gene_reaction_rule": "",
@@ -4720,7 +4720,7 @@
                 "glc-D_e_6": 1
             },
             "name": "",
-            "upper_bound": 1000
+            "upper_bound": 10
         },
         {
             "gene_reaction_rule": "",

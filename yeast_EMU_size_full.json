@@ -1,7 +1,7 @@
 {
     "compartments": {},
     "genes": [],
-    "id": "yeast_VerboseFullEMUNetwork.txt",
+    "id": "yeast_VerboseFullEMUNetwork.clean.txt",
     "metabolites": [
         {
             "compartment": "",
@@ -11400,7 +11400,7 @@
                 "glc-D_e_1": 1
             },
             "name": "",
-            "upper_bound": 1000
+            "upper_bound": 10
         },
         {
             "gene_reaction_rule": "",
@@ -11410,7 +11410,7 @@
                 "glc-D_e_1_2": 1
             },
             "name": "",
-            "upper_bound": 1000
+            "upper_bound": 10
         },
         {
             "gene_reaction_rule": "",
@@ -11420,7 +11420,7 @@
                 "glc-D_e_1_2_3": 1
             },
             "name": "",
-            "upper_bound": 1000
+            "upper_bound": 10
         },
         {
             "gene_reaction_rule": "",
@@ -11430,7 +11430,7 @@
                 "glc-D_e_2": 1
             },
             "name": "",
-            "upper_bound": 1000
+            "upper_bound": 10
         },
         {
             "gene_reaction_rule": "",
@@ -11440,7 +11440,7 @@
                 "glc-D_e_2_3": 1
             },
             "name": "",
-            "upper_bound": 1000
+            "upper_bound": 10
         },
         {
             "gene_reaction_rule": "",
@@ -11450,7 +11450,7 @@
                 "glc-D_e_3": 1
             },
             "name": "",
-            "upper_bound": 1000
+            "upper_bound": 10
         },
         {
             "gene_reaction_rule": "",
@@ -11460,7 +11460,7 @@
                 "glc-D_e_3_4_5_6": 1
             },
             "name": "",
-            "upper_bound": 1000
+            "upper_bound": 10
         },
         {
             "gene_reaction_rule": "",
@@ -11470,7 +11470,7 @@
                 "glc-D_e_4": 1
             },
             "name": "",
-            "upper_bound": 1000
+            "upper_bound": 10
         },
         {
             "gene_reaction_rule": "",
@@ -11480,7 +11480,7 @@
                 "glc-D_e_4_5": 1
             },
             "name": "",
-            "upper_bound": 1000
+            "upper_bound": 10
         },
         {
             "gene_reaction_rule": "",
@@ -11490,7 +11490,7 @@
                 "glc-D_e_4_5_6": 1
             },
             "name": "",
-            "upper_bound": 1000
+            "upper_bound": 10
         },
         {
             "gene_reaction_rule": "",
@@ -11500,7 +11500,7 @@
                 "glc-D_e_5": 1
             },
             "name": "",
-            "upper_bound": 1000
+            "upper_bound": 10
         },
         {
             "gene_reaction_rule": "",
@@ -11510,7 +11510,7 @@
                 "glc-D_e_5_6": 1
             },
             "name": "",
-            "upper_bound": 1000
+            "upper_bound": 10
         },
         {
             "gene_reaction_rule": "",
@@ -11520,7 +11520,7 @@
                 "glc-D_e_6": 1
             },
             "name": "",
-            "upper_bound": 1000
+            "upper_bound": 10
         },
         {
             "gene_reaction_rule": "",
