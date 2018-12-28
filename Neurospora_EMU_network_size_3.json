@@ -1,0 +1,3899 @@
+{
+    "compartments": {
+        "": ""
+    },
+    "genes": [],
+    "id": "yeast_VerboseFullEMUNetwork.clean.txt_size_3",
+    "metabolites": [
+        {
+            "compartment": "",
+            "id": "13dpg_1_2_3",
+            "name": "13dpg"
+        },
+        {
+            "compartment": "",
+            "id": "2pg_1_2_3",
+            "name": "2pg"
+        },
+        {
+            "compartment": "",
+            "id": "3pg_1_2_3",
+            "name": "3pg"
+        },
+        {
+            "compartment": "",
+            "id": "6pgc_4_5_6",
+            "name": "6pgc"
+        },
+        {
+            "compartment": "",
+            "id": "6pgl_4_5_6",
+            "name": "6pgl"
+        },
+        {
+            "compartment": "",
+            "id": "6pgl_r_4_5_6",
+            "name": "6pgl_r"
+        },
+        {
+            "compartment": "",
+            "id": "TAC3_1_2",
+            "name": "TAC"
+        },
+        {
+            "compartment": "",
+            "id": "TAC3_1_2_3",
+            "name": "TAC"
+        },
+        {
+            "compartment": "",
+            "id": "TAC3_2_3",
+            "name": "TAC"
+        },
+        {
+            "compartment": "",
+            "id": "TKC2_1_2",
+            "name": "TKC"
+        },
+        {
+            "compartment": "",
+            "id": "accoa_1_2",
+            "name": "accoa"
+        },
+        {
+            "compartment": "",
+            "id": "accoa_2",
+            "name": "accoa"
+        },
+        {
+            "compartment": "",
+            "id": "accoa_m_1_2",
+            "name": "accoa_m"
+        },
+        {
+            "compartment": "",
+            "id": "accoa_m_2",
+            "name": "accoa_m"
+        },
+        {
+            "compartment": "",
+            "id": "akg_2_3_4",
+            "name": "akg"
+        },
+        {
+            "compartment": "",
+            "id": "akg_3_4_5",
+            "name": "akg"
+        },
+        {
+            "compartment": "",
+            "id": "akg_m_2_3_4",
+            "name": "akg_m"
+        },
+        {
+            "compartment": "",
+            "id": "akg_m_3_4_5",
+            "name": "akg_m"
+        },
+        {
+            "compartment": "",
+            "id": "ala-L_1_2_3",
+            "name": "ala-L"
+        },
+        {
+            "compartment": "",
+            "id": "ala-L_m_1_2_3",
+            "name": "ala-L_m"
+        },
+        {
+            "compartment": "",
+            "id": "argsuc_7_8_9",
+            "name": "argsuc"
+        },
+        {
+            "compartment": "",
+            "id": "argsuc_8_9_10",
+            "name": "argsuc"
+        },
+        {
+            "compartment": "",
+            "id": "asp-L_1_2_3",
+            "name": "asp-L"
+        },
+        {
+            "compartment": "",
+            "id": "asp-L_2_3_4",
+            "name": "asp-L"
+        },
+        {
+            "compartment": "",
+            "id": "asp-L_m_1_2_3",
+            "name": "asp-L_m"
+        },
+        {
+            "compartment": "",
+            "id": "asp-L_m_2_3_4",
+            "name": "asp-L_m"
+        },
+        {
+            "compartment": "",
+            "id": "cit_1_2_3",
+            "name": "cit"
+        },
+        {
+            "compartment": "",
+            "id": "cit_2_3_4",
+            "name": "cit"
+        },
+        {
+            "compartment": "",
+            "id": "cit_2_3_5",
+            "name": "cit"
+        },
+        {
+            "compartment": "",
+            "id": "cit_3_4_5",
+            "name": "cit"
+        },
+        {
+            "compartment": "",
+            "id": "cit_3_5_6",
+            "name": "cit"
+        },
+        {
+            "compartment": "",
+            "id": "cit_m_1_2_3",
+            "name": "cit_m"
+        },
+        {
+            "compartment": "",
+            "id": "cit_m_2_3_4",
+            "name": "cit_m"
+        },
+        {
+            "compartment": "",
+            "id": "cit_m_2_3_5",
+            "name": "cit_m"
+        },
+        {
+            "compartment": "",
+            "id": "cit_m_3_4_5",
+            "name": "cit_m"
+        },
+        {
+            "compartment": "",
+            "id": "cit_m_3_5_6",
+            "name": "cit_m"
+        },
+        {
+            "compartment": "",
+            "id": "dcamp_1_2_3",
+            "name": "dcamp"
+        },
+        {
+            "compartment": "",
+            "id": "dcamp_2_3_4",
+            "name": "dcamp"
+        },
+        {
+            "compartment": "",
+            "id": "dhap_1_2_3",
+            "name": "dhap"
+        },
+        {
+            "compartment": "",
+            "id": "e4p_1",
+            "name": "e4p"
+        },
+        {
+            "compartment": "",
+            "id": "e4p_2_3_4",
+            "name": "e4p"
+        },
+        {
+            "compartment": "",
+            "id": "f6p_1_2",
+            "name": "f6p"
+        },
+        {
+            "compartment": "",
+            "id": "f6p_1_2_3",
+            "name": "f6p"
+        },
+        {
+            "compartment": "",
+            "id": "f6p_2_3",
+            "name": "f6p"
+        },
+        {
+            "compartment": "",
+            "id": "f6p_4_5_6",
+            "name": "f6p"
+        },
+        {
+            "compartment": "",
+            "id": "fdp_1_2_3",
+            "name": "fdp"
+        },
+        {
+            "compartment": "",
+            "id": "fdp_4_5_6",
+            "name": "fdp"
+        },
+        {
+            "compartment": "",
+            "id": "fum_1_2_3",
+            "name": "fum"
+        },
+        {
+            "compartment": "",
+            "id": "fum_2_3_4",
+            "name": "fum"
+        },
+        {
+            "compartment": "",
+            "id": "fum_m_1_2_3",
+            "name": "fum_m"
+        },
+        {
+            "compartment": "",
+            "id": "fum_m_2_3_4",
+            "name": "fum_m"
+        },
+        {
+            "compartment": "",
+            "id": "g3p_1_2_3",
+            "name": "g3p"
+        },
+        {
+            "compartment": "",
+            "id": "g6p_1_2_3",
+            "name": "g6p"
+        },
+        {
+            "compartment": "",
+            "id": "g6p_4_5_6",
+            "name": "g6p"
+        },
+        {
+            "compartment": "",
+            "id": "g6p_r_1_2_3",
+            "name": "g6p_r"
+        },
+        {
+            "compartment": "",
+            "id": "g6p_r_4_5_6",
+            "name": "g6p_r"
+        },
+        {
+            "compartment": "",
+            "id": "glc-D_1_2_3",
+            "name": "glc-D"
+        },
+        {
+            "compartment": "",
+            "id": "glc-D_4_5_6",
+            "name": "glc-D"
+        },
+        {
+            "compartment": "",
+            "id": "glc-D_e_1_2_3",
+            "name": "glc-D_e"
+        },
+        {
+            "compartment": "",
+            "id": "glc-D_e_4_5_6",
+            "name": "glc-D_e"
+        },
+        {
+            "compartment": "",
+            "id": "gln-L_2_3_4",
+            "name": "gln-L"
+        },
+        {
+            "compartment": "",
+            "id": "gln-L_3_4_5",
+            "name": "gln-L"
+        },
+        {
+            "compartment": "",
+            "id": "glu-L_2_3_4",
+            "name": "glu-L"
+        },
+        {
+            "compartment": "",
+            "id": "glu-L_3_4_5",
+            "name": "glu-L"
+        },
+        {
+            "compartment": "",
+            "id": "glu-L_m_2_3_4",
+            "name": "glu-L_m"
+        },
+        {
+            "compartment": "",
+            "id": "glu-L_m_3_4_5",
+            "name": "glu-L_m"
+        },
+        {
+            "compartment": "",
+            "id": "glx_1_2",
+            "name": "glx"
+        },
+        {
+            "compartment": "",
+            "id": "glx_2",
+            "name": "glx"
+        },
+        {
+            "compartment": "",
+            "id": "hco3_1",
+            "name": "hco"
+        },
+        {
+            "compartment": "",
+            "id": "icit_1_2_3",
+            "name": "icit"
+        },
+        {
+            "compartment": "",
+            "id": "icit_2_3_4",
+            "name": "icit"
+        },
+        {
+            "compartment": "",
+            "id": "icit_2_3_5",
+            "name": "icit"
+        },
+        {
+            "compartment": "",
+            "id": "icit_3_4_5",
+            "name": "icit"
+        },
+        {
+            "compartment": "",
+            "id": "icit_3_5_6",
+            "name": "icit"
+        },
+        {
+            "compartment": "",
+            "id": "icit_m_1_2_3",
+            "name": "icit_m"
+        },
+        {
+            "compartment": "",
+            "id": "icit_m_2_3_4",
+            "name": "icit_m"
+        },
+        {
+            "compartment": "",
+            "id": "icit_m_2_3_5",
+            "name": "icit_m"
+        },
+        {
+            "compartment": "",
+            "id": "icit_m_3_4_5",
+            "name": "icit_m"
+        },
+        {
+            "compartment": "",
+            "id": "icit_m_3_5_6",
+            "name": "icit_m"
+        },
+        {
+            "compartment": "",
+            "id": "mal-L_1_2_3",
+            "name": "mal-L"
+        },
+        {
+            "compartment": "",
+            "id": "mal-L_2_3_4",
+            "name": "mal-L"
+        },
+        {
+            "compartment": "",
+            "id": "mal-L_m_1_2_3",
+            "name": "mal-L_m"
+        },
+        {
+            "compartment": "",
+            "id": "mal-L_m_2_3_4",
+            "name": "mal-L_m"
+        },
+        {
+            "compartment": "",
+            "id": "oaa_1_2_3",
+            "name": "oaa"
+        },
+        {
+            "compartment": "",
+            "id": "oaa_2_3_4",
+            "name": "oaa"
+        },
+        {
+            "compartment": "",
+            "id": "oaa_m_1_2",
+            "name": "oaa_m"
+        },
+        {
+            "compartment": "",
+            "id": "oaa_m_1_2_3",
+            "name": "oaa_m"
+        },
+        {
+            "compartment": "",
+            "id": "oaa_m_2",
+            "name": "oaa_m"
+        },
+        {
+            "compartment": "",
+            "id": "oaa_m_2_3",
+            "name": "oaa_m"
+        },
+        {
+            "compartment": "",
+            "id": "oaa_m_2_3_4",
+            "name": "oaa_m"
+        },
+        {
+            "compartment": "",
+            "id": "pep_1_2_3",
+            "name": "pep"
+        },
+        {
+            "compartment": "",
+            "id": "prpp_3_4_5",
+            "name": "prpp"
+        },
+        {
+            "compartment": "",
+            "id": "pyr_1_2_3",
+            "name": "pyr"
+        },
+        {
+            "compartment": "",
+            "id": "pyr_2_3",
+            "name": "pyr"
+        },
+        {
+            "compartment": "",
+            "id": "pyr_m_1_2_3",
+            "name": "pyr_m"
+        },
+        {
+            "compartment": "",
+            "id": "r5p_1",
+            "name": "r5p"
+        },
+        {
+            "compartment": "",
+            "id": "r5p_3_4_5",
+            "name": "r5p"
+        },
+        {
+            "compartment": "",
+            "id": "ru5p-D_3_4_5",
+            "name": "ru5p-D"
+        },
+        {
+            "compartment": "",
+            "id": "s7p_1_2",
+            "name": "s7p"
+        },
+        {
+            "compartment": "",
+            "id": "s7p_1_2_3",
+            "name": "s7p"
+        },
+        {
+            "compartment": "",
+            "id": "s7p_2_3",
+            "name": "s7p"
+        },
+        {
+            "compartment": "",
+            "id": "s7p_5_6_7",
+            "name": "s7p"
+        },
+        {
+            "compartment": "",
+            "id": "saccrp-L_2_3_4",
+            "name": "saccrp-L"
+        },
+        {
+            "compartment": "",
+            "id": "saccrp-L_3_4_5",
+            "name": "saccrp-L"
+        },
+        {
+            "compartment": "",
+            "id": "sdhlam_m_1_2_3",
+            "name": "sdhlam_m"
+        },
+        {
+            "compartment": "",
+            "id": "sdhlam_m_2_3_4",
+            "name": "sdhlam_m"
+        },
+        {
+            "compartment": "",
+            "id": "succ_1_2_3",
+            "name": "succ"
+        },
+        {
+            "compartment": "",
+            "id": "succ_2_3_4",
+            "name": "succ"
+        },
+        {
+            "compartment": "",
+            "id": "succ_m_1_2_3",
+            "name": "succ_m"
+        },
+        {
+            "compartment": "",
+            "id": "succ_m_2_3_4",
+            "name": "succ_m"
+        },
+        {
+            "compartment": "",
+            "id": "succoa_m_1_2_3",
+            "name": "succoa_m"
+        },
+        {
+            "compartment": "",
+            "id": "succoa_m_2_3_4",
+            "name": "succoa_m"
+        },
+        {
+            "compartment": "",
+            "id": "xu5p-D_1_2",
+            "name": "xu5p-D"
+        },
+        {
+            "compartment": "",
+            "id": "xu5p-D_3_4_5",
+            "name": "xu5p-D"
+        }
+    ],
+    "reactions": [
+        {
+            "gene_reaction_rule": "",
+            "id": "6PGLter_b_4",
+            "lower_bound": 0,
+            "metabolites": {
+                "6pgl_4_5_6": 1,
+                "6pgl_r_4_5_6": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "6PGLter_f_2",
+            "lower_bound": 0,
+            "metabolites": {
+                "6pgl_4_5_6": -1,
+                "6pgl_r_4_5_6": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "AATA_b_1",
+            "lower_bound": 0,
+            "metabolites": {
+                "akg_2_3_4": -1,
+                "glu-L_2_3_4": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "AATA_b_3",
+            "lower_bound": 0,
+            "metabolites": {
+                "akg_3_4_5": -1,
+                "glu-L_3_4_5": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "AATA_f_10",
+            "lower_bound": 0,
+            "metabolites": {
+                "akg_3_4_5": 1,
+                "glu-L_3_4_5": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "AATA_f_6",
+            "lower_bound": 0,
+            "metabolites": {
+                "akg_2_3_4": 1,
+                "glu-L_2_3_4": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ACL_2",
+            "lower_bound": 0,
+            "metabolites": {
+                "cit_1_2_3": -1,
+                "oaa_1_2_3": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ACL_6",
+            "lower_bound": 0,
+            "metabolites": {
+                "cit_2_3_4": -1,
+                "oaa_2_3_4": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ACONT_b_13",
+            "lower_bound": 0,
+            "metabolites": {
+                "cit_2_3_5": 1,
+                "icit_2_3_5": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ACONT_b_15",
+            "lower_bound": 0,
+            "metabolites": {
+                "cit_3_4_5": 1,
+                "icit_3_4_5": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ACONT_b_16",
+            "lower_bound": 0,
+            "metabolites": {
+                "cit_3_5_6": 1,
+                "icit_3_5_6": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ACONT_b_17",
+            "lower_bound": 0,
+            "metabolites": {
+                "cit_2_3_4": 1,
+                "icit_2_3_4": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ACONT_b_4",
+            "lower_bound": 0,
+            "metabolites": {
+                "cit_1_2_3": 1,
+                "icit_1_2_3": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ACONT_f_17",
+            "lower_bound": 0,
+            "metabolites": {
+                "cit_1_2_3": -1,
+                "icit_1_2_3": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ACONT_f_3",
+            "lower_bound": 0,
+            "metabolites": {
+                "cit_2_3_4": -1,
+                "icit_2_3_4": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ACONT_f_6",
+            "lower_bound": 0,
+            "metabolites": {
+                "cit_3_5_6": -1,
+                "icit_3_5_6": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ACONT_f_8",
+            "lower_bound": 0,
+            "metabolites": {
+                "cit_3_4_5": -1,
+                "icit_3_4_5": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ACONT_f_9",
+            "lower_bound": 0,
+            "metabolites": {
+                "cit_2_3_5": -1,
+                "icit_2_3_5": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ACONTm_b_0",
+            "lower_bound": 0,
+            "metabolites": {
+                "cit_m_2_3_4": 1,
+                "icit_m_2_3_4": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ACONTm_b_16",
+            "lower_bound": 0,
+            "metabolites": {
+                "cit_m_3_5_6": 1,
+                "icit_m_3_5_6": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ACONTm_b_3",
+            "lower_bound": 0,
+            "metabolites": {
+                "cit_m_2_3_5": 1,
+                "icit_m_2_3_5": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ACONTm_b_4",
+            "lower_bound": 0,
+            "metabolites": {
+                "cit_m_3_4_5": 1,
+                "icit_m_3_4_5": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ACONTm_b_7",
+            "lower_bound": 0,
+            "metabolites": {
+                "cit_m_1_2_3": 1,
+                "icit_m_1_2_3": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ACONTm_f_12",
+            "lower_bound": 0,
+            "metabolites": {
+                "cit_m_2_3_4": -1,
+                "icit_m_2_3_4": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ACONTm_f_13",
+            "lower_bound": 0,
+            "metabolites": {
+                "cit_m_2_3_5": -1,
+                "icit_m_2_3_5": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ACONTm_f_16",
+            "lower_bound": 0,
+            "metabolites": {
+                "cit_m_1_2_3": -1,
+                "icit_m_1_2_3": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ACONTm_f_3",
+            "lower_bound": 0,
+            "metabolites": {
+                "cit_m_3_5_6": -1,
+                "icit_m_3_5_6": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ACONTm_f_6",
+            "lower_bound": 0,
+            "metabolites": {
+                "cit_m_3_4_5": -1,
+                "icit_m_3_4_5": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ACOTAim_2",
+            "lower_bound": 0,
+            "metabolites": {
+                "akg_m_3_4_5": 1,
+                "glu-L_m_3_4_5": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ACOTAim_4",
+            "lower_bound": 0,
+            "metabolites": {
+                "akg_m_2_3_4": 1,
+                "glu-L_m_2_3_4": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ADSL1r_0",
+            "lower_bound": 0,
+            "metabolites": {
+                "dcamp_1_2_3": -1,
+                "fum_1_2_3": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ADSL1r_7",
+            "lower_bound": 0,
+            "metabolites": {
+                "dcamp_2_3_4": -1,
+                "fum_2_3_4": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ADSS_3",
+            "lower_bound": 0,
+            "metabolites": {
+                "asp-L_1_2_3": -1,
+                "dcamp_1_2_3": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ADSS_6",
+            "lower_bound": 0,
+            "metabolites": {
+                "asp-L_2_3_4": -1,
+                "dcamp_2_3_4": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "AGTi_4",
+            "lower_bound": 0,
+            "metabolites": {
+                "ala-L_1_2_3": -1,
+                "pyr_1_2_3": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "AKGDam_0",
+            "lower_bound": 0,
+            "metabolites": {
+                "akg_m_2_3_4": -1,
+                "sdhlam_m_1_2_3": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "AKGDam_3",
+            "lower_bound": 0,
+            "metabolites": {
+                "akg_m_3_4_5": -1,
+                "sdhlam_m_2_3_4": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "AKGDbm_3",
+            "lower_bound": 0,
+            "metabolites": {
+                "sdhlam_m_2_3_4": -1,
+                "succoa_m_2_3_4": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "AKGDbm_9",
+            "lower_bound": 0,
+            "metabolites": {
+                "sdhlam_m_1_2_3": -1,
+                "succoa_m_1_2_3": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ALATA_L_b_14",
+            "lower_bound": 0,
+            "metabolites": {
+                "ala-L_1_2_3": 1,
+                "pyr_1_2_3": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ALATA_L_b_3",
+            "lower_bound": 0,
+            "metabolites": {
+                "akg_2_3_4": 1,
+                "glu-L_2_3_4": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ALATA_L_b_9",
+            "lower_bound": 0,
+            "metabolites": {
+                "akg_3_4_5": 1,
+                "glu-L_3_4_5": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ALATA_L_f_14",
+            "lower_bound": 0,
+            "metabolites": {
+                "akg_3_4_5": -1,
+                "glu-L_3_4_5": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ALATA_L_f_16",
+            "lower_bound": 0,
+            "metabolites": {
+                "akg_2_3_4": -1,
+                "glu-L_2_3_4": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ALATA_L_f_3",
+            "lower_bound": 0,
+            "metabolites": {
+                "ala-L_1_2_3": -1,
+                "pyr_1_2_3": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ALATA_Lm_b_12",
+            "lower_bound": 0,
+            "metabolites": {
+                "ala-L_m_1_2_3": 1,
+                "pyr_m_1_2_3": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ALATA_Lm_b_4",
+            "lower_bound": 0,
+            "metabolites": {
+                "akg_m_2_3_4": 1,
+                "glu-L_m_2_3_4": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ALATA_Lm_b_5",
+            "lower_bound": 0,
+            "metabolites": {
+                "akg_m_3_4_5": 1,
+                "glu-L_m_3_4_5": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ALATA_Lm_f_13",
+            "lower_bound": 0,
+            "metabolites": {
+                "ala-L_m_1_2_3": -1,
+                "pyr_m_1_2_3": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ALATA_Lm_f_5",
+            "lower_bound": 0,
+            "metabolites": {
+                "akg_m_3_4_5": -1,
+                "glu-L_m_3_4_5": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ALATA_Lm_f_8",
+            "lower_bound": 0,
+            "metabolites": {
+                "akg_m_2_3_4": -1,
+                "glu-L_m_2_3_4": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ARGSL_b_16",
+            "lower_bound": 0,
+            "metabolites": {
+                "argsuc_7_8_9": 0.5,
+                "fum_2_3_4": -0.5
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ARGSL_b_3",
+            "lower_bound": 0,
+            "metabolites": {
+                "argsuc_7_8_9": 0.5,
+                "fum_1_2_3": -0.5
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ARGSL_b_6",
+            "lower_bound": 0,
+            "metabolites": {
+                "argsuc_8_9_10": 0.5,
+                "fum_1_2_3": -0.5
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ARGSL_b_9",
+            "lower_bound": 0,
+            "metabolites": {
+                "argsuc_8_9_10": 0.5,
+                "fum_2_3_4": -0.5
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ARGSL_f_10",
+            "lower_bound": 0,
+            "metabolites": {
+                "argsuc_8_9_10": -0.5,
+                "fum_2_3_4": 0.5
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ARGSL_f_16",
+            "lower_bound": 0,
+            "metabolites": {
+                "argsuc_7_8_9": -0.5,
+                "fum_2_3_4": 0.5
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ARGSL_f_6",
+            "lower_bound": 0,
+            "metabolites": {
+                "argsuc_8_9_10": -0.5,
+                "fum_1_2_3": 0.5
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ARGSL_f_8",
+            "lower_bound": 0,
+            "metabolites": {
+                "argsuc_7_8_9": -0.5,
+                "fum_1_2_3": 0.5
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ARGSSr_2",
+            "lower_bound": 0,
+            "metabolites": {
+                "argsuc_8_9_10": 1,
+                "asp-L_2_3_4": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ARGSSr_7",
+            "lower_bound": 0,
+            "metabolites": {
+                "argsuc_7_8_9": 1,
+                "asp-L_1_2_3": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ASNS1_5",
+            "lower_bound": 0,
+            "metabolites": {
+                "gln-L_3_4_5": -1,
+                "glu-L_3_4_5": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ASNS1_6",
+            "lower_bound": 0,
+            "metabolites": {
+                "gln-L_2_3_4": -1,
+                "glu-L_2_3_4": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ASPTA_b_0",
+            "lower_bound": 0,
+            "metabolites": {
+                "asp-L_1_2_3": 1,
+                "oaa_1_2_3": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ASPTA_b_16",
+            "lower_bound": 0,
+            "metabolites": {
+                "akg_2_3_4": 1,
+                "glu-L_2_3_4": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ASPTA_b_20",
+            "lower_bound": 0,
+            "metabolites": {
+                "asp-L_2_3_4": 1,
+                "oaa_2_3_4": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ASPTA_b_8",
+            "lower_bound": 0,
+            "metabolites": {
+                "akg_3_4_5": 1,
+                "glu-L_3_4_5": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ASPTA_f_10",
+            "lower_bound": 0,
+            "metabolites": {
+                "asp-L_2_3_4": -1,
+                "oaa_2_3_4": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ASPTA_f_14",
+            "lower_bound": 0,
+            "metabolites": {
+                "akg_2_3_4": -1,
+                "glu-L_2_3_4": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ASPTA_f_18",
+            "lower_bound": 0,
+            "metabolites": {
+                "akg_3_4_5": -1,
+                "glu-L_3_4_5": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ASPTA_f_9",
+            "lower_bound": 0,
+            "metabolites": {
+                "asp-L_1_2_3": -1,
+                "oaa_1_2_3": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ASPTAm_b_16",
+            "lower_bound": 0,
+            "metabolites": {
+                "asp-L_m_2_3_4": 1,
+                "oaa_m_2_3_4": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ASPTAm_b_17",
+            "lower_bound": 0,
+            "metabolites": {
+                "asp-L_m_1_2_3": 1,
+                "oaa_m_1_2_3": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ASPTAm_b_2",
+            "lower_bound": 0,
+            "metabolites": {
+                "akg_m_2_3_4": 1,
+                "glu-L_m_2_3_4": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ASPTAm_b_9",
+            "lower_bound": 0,
+            "metabolites": {
+                "akg_m_3_4_5": 1,
+                "glu-L_m_3_4_5": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ASPTAm_f_15",
+            "lower_bound": 0,
+            "metabolites": {
+                "asp-L_m_1_2_3": -1,
+                "oaa_m_1_2_3": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ASPTAm_f_17",
+            "lower_bound": 0,
+            "metabolites": {
+                "asp-L_m_2_3_4": -1,
+                "oaa_m_2_3_4": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ASPTAm_f_8",
+            "lower_bound": 0,
+            "metabolites": {
+                "akg_m_3_4_5": -1,
+                "glu-L_m_3_4_5": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ASPTAm_f_9",
+            "lower_bound": 0,
+            "metabolites": {
+                "akg_m_2_3_4": -1,
+                "glu-L_m_2_3_4": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ASPt2m_b_4",
+            "lower_bound": 0,
+            "metabolites": {
+                "asp-L_1_2_3": 1,
+                "asp-L_m_1_2_3": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ASPt2m_b_8",
+            "lower_bound": 0,
+            "metabolites": {
+                "asp-L_2_3_4": 1,
+                "asp-L_m_2_3_4": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ASPt2m_f_1",
+            "lower_bound": 0,
+            "metabolites": {
+                "asp-L_1_2_3": -1,
+                "asp-L_m_1_2_3": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ASPt2m_f_9",
+            "lower_bound": 0,
+            "metabolites": {
+                "asp-L_2_3_4": -1,
+                "asp-L_m_2_3_4": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "CBPS_4",
+            "lower_bound": 0,
+            "metabolites": {
+                "gln-L_3_4_5": -1,
+                "glu-L_3_4_5": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "CBPS_9",
+            "lower_bound": 0,
+            "metabolites": {
+                "gln-L_2_3_4": -1,
+                "glu-L_2_3_4": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "CITtam_b_10",
+            "lower_bound": 0,
+            "metabolites": {
+                "cit_2_3_5": 1,
+                "cit_m_2_3_5": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "CITtam_b_14",
+            "lower_bound": 0,
+            "metabolites": {
+                "cit_2_3_4": 1,
+                "cit_m_2_3_4": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "CITtam_b_20",
+            "lower_bound": 0,
+            "metabolites": {
+                "mal-L_1_2_3": -1,
+                "mal-L_m_1_2_3": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "CITtam_b_24",
+            "lower_bound": 0,
+            "metabolites": {
+                "cit_3_5_6": 1,
+                "cit_m_3_5_6": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "CITtam_b_29",
+            "lower_bound": 0,
+            "metabolites": {
+                "cit_3_4_5": 1,
+                "cit_m_3_4_5": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "CITtam_b_6",
+            "lower_bound": 0,
+            "metabolites": {
+                "mal-L_2_3_4": -1,
+                "mal-L_m_2_3_4": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "CITtam_b_8",
+            "lower_bound": 0,
+            "metabolites": {
+                "cit_1_2_3": 1,
+                "cit_m_1_2_3": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "CITtam_f_13",
+            "lower_bound": 0,
+            "metabolites": {
+                "mal-L_1_2_3": 1,
+                "mal-L_m_1_2_3": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "CITtam_f_17",
+            "lower_bound": 0,
+            "metabolites": {
+                "cit_2_3_4": -1,
+                "cit_m_2_3_4": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "CITtam_f_18",
+            "lower_bound": 0,
+            "metabolites": {
+                "cit_2_3_5": -1,
+                "cit_m_2_3_5": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "CITtam_f_22",
+            "lower_bound": 0,
+            "metabolites": {
+                "cit_3_5_6": -1,
+                "cit_m_3_5_6": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "CITtam_f_27",
+            "lower_bound": 0,
+            "metabolites": {
+                "cit_3_4_5": -1,
+                "cit_m_3_4_5": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "CITtam_f_4",
+            "lower_bound": 0,
+            "metabolites": {
+                "cit_1_2_3": -1,
+                "cit_m_1_2_3": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "CITtam_f_7",
+            "lower_bound": 0,
+            "metabolites": {
+                "mal-L_2_3_4": 1,
+                "mal-L_m_2_3_4": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "CITtcm_b_13",
+            "lower_bound": 0,
+            "metabolites": {
+                "cit_2_3_4": 1,
+                "cit_m_2_3_4": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "CITtcm_b_15",
+            "lower_bound": 0,
+            "metabolites": {
+                "cit_3_4_5": 1,
+                "cit_m_3_4_5": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "CITtcm_b_18",
+            "lower_bound": 0,
+            "metabolites": {
+                "cit_2_3_5": 1,
+                "cit_m_2_3_5": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "CITtcm_b_2",
+            "lower_bound": 0,
+            "metabolites": {
+                "icit_1_2_3": -1,
+                "icit_m_1_2_3": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "CITtcm_b_20",
+            "lower_bound": 0,
+            "metabolites": {
+                "cit_1_2_3": 1,
+                "cit_m_1_2_3": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "CITtcm_b_25",
+            "lower_bound": 0,
+            "metabolites": {
+                "icit_3_4_5": -1,
+                "icit_m_3_4_5": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "CITtcm_b_28",
+            "lower_bound": 0,
+            "metabolites": {
+                "icit_3_5_6": -1,
+                "icit_m_3_5_6": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "CITtcm_b_3",
+            "lower_bound": 0,
+            "metabolites": {
+                "cit_3_5_6": 1,
+                "cit_m_3_5_6": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "CITtcm_b_30",
+            "lower_bound": 0,
+            "metabolites": {
+                "icit_2_3_4": -1,
+                "icit_m_2_3_4": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "CITtcm_b_33",
+            "lower_bound": 0,
+            "metabolites": {
+                "icit_2_3_5": -1,
+                "icit_m_2_3_5": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "CITtcm_f_0",
+            "lower_bound": 0,
+            "metabolites": {
+                "cit_2_3_5": -1,
+                "cit_m_2_3_5": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "CITtcm_f_11",
+            "lower_bound": 0,
+            "metabolites": {
+                "icit_2_3_4": 1,
+                "icit_m_2_3_4": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "CITtcm_f_19",
+            "lower_bound": 0,
+            "metabolites": {
+                "icit_3_5_6": 1,
+                "icit_m_3_5_6": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "CITtcm_f_21",
+            "lower_bound": 0,
+            "metabolites": {
+                "icit_3_4_5": 1,
+                "icit_m_3_4_5": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "CITtcm_f_23",
+            "lower_bound": 0,
+            "metabolites": {
+                "cit_3_4_5": -1,
+                "cit_m_3_4_5": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "CITtcm_f_26",
+            "lower_bound": 0,
+            "metabolites": {
+                "icit_1_2_3": 1,
+                "icit_m_1_2_3": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "CITtcm_f_30",
+            "lower_bound": 0,
+            "metabolites": {
+                "cit_3_5_6": -1,
+                "cit_m_3_5_6": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "CITtcm_f_39",
+            "lower_bound": 0,
+            "metabolites": {
+                "cit_1_2_3": -1,
+                "cit_m_1_2_3": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "CITtcm_f_4",
+            "lower_bound": 0,
+            "metabolites": {
+                "cit_2_3_4": -1,
+                "cit_m_2_3_4": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "CITtcm_f_9",
+            "lower_bound": 0,
+            "metabolites": {
+                "icit_2_3_5": 1,
+                "icit_m_2_3_5": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "CSm_12",
+            "lower_bound": 0,
+            "metabolites": {
+                "cit_m_1_2_3": 1,
+                "oaa_m_2_3_4": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "CSm_13",
+            "lower_bound": 0,
+            "metabolites": {
+                "cit_m_2_3_4": 1,
+                "oaa_m_1_2_3": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "CSm_3",
+            "lower_bound": 0,
+            "metabolites": {
+                "accoa_m_1_2": -1,
+                "cit_m_3_5_6": 1,
+                "oaa_m_2": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "CSm_4",
+            "lower_bound": 0,
+            "metabolites": {
+                "accoa_m_2": -1,
+                "cit_m_3_4_5": 1,
+                "oaa_m_1_2": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "CSm_8",
+            "lower_bound": 0,
+            "metabolites": {
+                "accoa_m_2": -1,
+                "cit_m_2_3_5": 1,
+                "oaa_m_2_3": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ENO_b_4",
+            "lower_bound": 0,
+            "metabolites": {
+                "2pg_1_2_3": 1,
+                "pep_1_2_3": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ENO_f_0",
+            "lower_bound": 0,
+            "metabolites": {
+                "2pg_1_2_3": -1,
+                "pep_1_2_3": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "EX_glc-D_e_1_2_3",
+            "lower_bound": 0,
+            "metabolites": {
+                "glc-D_e_1_2_3": 1
+            },
+            "name": "",
+            "upper_bound": 10
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "EX_glc-D_e_4_5_6",
+            "lower_bound": 0,
+            "metabolites": {
+                "glc-D_e_4_5_6": 1
+            },
+            "name": "",
+            "upper_bound": 10
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "FBA_b_0",
+            "lower_bound": 0,
+            "metabolites": {
+                "dhap_1_2_3": -1,
+                "fdp_4_5_6": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "FBA_b_5",
+            "lower_bound": 0,
+            "metabolites": {
+                "fdp_1_2_3": 1,
+                "g3p_1_2_3": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "FBA_f_1",
+            "lower_bound": 0,
+            "metabolites": {
+                "fdp_1_2_3": -1,
+                "g3p_1_2_3": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "FBA_f_3",
+            "lower_bound": 0,
+            "metabolites": {
+                "dhap_1_2_3": 1,
+                "fdp_4_5_6": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "FUM_b_7",
+            "lower_bound": 0,
+            "metabolites": {
+                "fum_1_2_3": 1,
+                "mal-L_1_2_3": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "FUM_b_8",
+            "lower_bound": 0,
+            "metabolites": {
+                "fum_2_3_4": 1,
+                "mal-L_2_3_4": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "FUM_f_0",
+            "lower_bound": 0,
+            "metabolites": {
+                "fum_1_2_3": -1,
+                "mal-L_1_2_3": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "FUM_f_1",
+            "lower_bound": 0,
+            "metabolites": {
+                "fum_2_3_4": -1,
+                "mal-L_2_3_4": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "FUMm_b_3",
+            "lower_bound": 0,
+            "metabolites": {
+                "fum_m_2_3_4": 1,
+                "mal-L_m_2_3_4": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "FUMm_b_6",
+            "lower_bound": 0,
+            "metabolites": {
+                "fum_m_1_2_3": 1,
+                "mal-L_m_1_2_3": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "FUMm_f_3",
+            "lower_bound": 0,
+            "metabolites": {
+                "fum_m_2_3_4": -1,
+                "mal-L_m_2_3_4": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "FUMm_f_6",
+            "lower_bound": 0,
+            "metabolites": {
+                "fum_m_1_2_3": -1,
+                "mal-L_m_1_2_3": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "G6PDH2_10",
+            "lower_bound": 0,
+            "metabolites": {
+                "6pgl_4_5_6": 1,
+                "g6p_4_5_6": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "G6PDH2er_0",
+            "lower_bound": 0,
+            "metabolites": {
+                "6pgl_r_4_5_6": 1,
+                "g6p_r_4_5_6": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "G6Pter_b_1",
+            "lower_bound": 0,
+            "metabolites": {
+                "g6p_1_2_3": 1,
+                "g6p_r_1_2_3": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "G6Pter_b_9",
+            "lower_bound": 0,
+            "metabolites": {
+                "g6p_4_5_6": 1,
+                "g6p_r_4_5_6": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "G6Pter_f_12",
+            "lower_bound": 0,
+            "metabolites": {
+                "g6p_1_2_3": -1,
+                "g6p_r_1_2_3": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "G6Pter_f_8",
+            "lower_bound": 0,
+            "metabolites": {
+                "g6p_4_5_6": -1,
+                "g6p_r_4_5_6": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "GAPD_b_3",
+            "lower_bound": 0,
+            "metabolites": {
+                "13dpg_1_2_3": -1,
+                "g3p_1_2_3": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "GAPD_f_3",
+            "lower_bound": 0,
+            "metabolites": {
+                "13dpg_1_2_3": 1,
+                "g3p_1_2_3": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "GLCt1_12",
+            "lower_bound": 0,
+            "metabolites": {
+                "glc-D_4_5_6": 1,
+                "glc-D_e_4_5_6": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "GLCt1_3",
+            "lower_bound": 0,
+            "metabolites": {
+                "glc-D_1_2_3": 1,
+                "glc-D_e_1_2_3": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "GLNS_3",
+            "lower_bound": 0,
+            "metabolites": {
+                "gln-L_2_3_4": 1,
+                "glu-L_2_3_4": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "GLNS_6",
+            "lower_bound": 0,
+            "metabolites": {
+                "gln-L_3_4_5": 1,
+                "glu-L_3_4_5": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "GLUDyi_4",
+            "lower_bound": 0,
+            "metabolites": {
+                "akg_3_4_5": -1,
+                "glu-L_3_4_5": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "GLUDyi_5",
+            "lower_bound": 0,
+            "metabolites": {
+                "akg_2_3_4": -1,
+                "glu-L_2_3_4": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "GLUPRT_2",
+            "lower_bound": 0,
+            "metabolites": {
+                "gln-L_3_4_5": -1,
+                "glu-L_3_4_5": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "GLUPRT_6",
+            "lower_bound": 0,
+            "metabolites": {
+                "gln-L_2_3_4": -1,
+                "glu-L_2_3_4": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "GLUt7m_5",
+            "lower_bound": 0,
+            "metabolites": {
+                "glu-L_2_3_4": -1,
+                "glu-L_m_2_3_4": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "GLUt7m_9",
+            "lower_bound": 0,
+            "metabolites": {
+                "glu-L_3_4_5": -1,
+                "glu-L_m_3_4_5": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "GMPS2_1",
+            "lower_bound": 0,
+            "metabolites": {
+                "gln-L_3_4_5": -1,
+                "glu-L_3_4_5": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "GMPS2_2",
+            "lower_bound": 0,
+            "metabolites": {
+                "gln-L_2_3_4": -1,
+                "glu-L_2_3_4": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "GND_2",
+            "lower_bound": 0,
+            "metabolites": {
+                "6pgc_4_5_6": -1,
+                "ru5p-D_3_4_5": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "HEX1_0",
+            "lower_bound": 0,
+            "metabolites": {
+                "g6p_4_5_6": 1,
+                "glc-D_4_5_6": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "HEX1_5",
+            "lower_bound": 0,
+            "metabolites": {
+                "g6p_1_2_3": 1,
+                "glc-D_1_2_3": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ICDHxm_10",
+            "lower_bound": 0,
+            "metabolites": {
+                "akg_m_3_4_5": 1,
+                "icit_m_3_5_6": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ICDHxm_6",
+            "lower_bound": 0,
+            "metabolites": {
+                "akg_m_2_3_4": 1,
+                "icit_m_2_3_5": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ICDHy_7",
+            "lower_bound": 0,
+            "metabolites": {
+                "akg_2_3_4": 1,
+                "icit_2_3_5": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ICDHy_9",
+            "lower_bound": 0,
+            "metabolites": {
+                "akg_3_4_5": 1,
+                "icit_3_5_6": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ICDHym_10",
+            "lower_bound": 0,
+            "metabolites": {
+                "akg_m_2_3_4": 1,
+                "icit_m_2_3_5": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ICDHym_3",
+            "lower_bound": 0,
+            "metabolites": {
+                "akg_m_3_4_5": 1,
+                "icit_m_3_5_6": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ICL_11",
+            "lower_bound": 0,
+            "metabolites": {
+                "icit_3_4_5": -1,
+                "succ_2_3_4": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ICL_7",
+            "lower_bound": 0,
+            "metabolites": {
+                "icit_3_5_6": -1,
+                "succ_1_2_3": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ILETA_b_2",
+            "lower_bound": 0,
+            "metabolites": {
+                "akg_3_4_5": 1,
+                "glu-L_3_4_5": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ILETA_b_7",
+            "lower_bound": 0,
+            "metabolites": {
+                "akg_2_3_4": 1,
+                "glu-L_2_3_4": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ILETA_f_11",
+            "lower_bound": 0,
+            "metabolites": {
+                "akg_3_4_5": -1,
+                "glu-L_3_4_5": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ILETA_f_6",
+            "lower_bound": 0,
+            "metabolites": {
+                "akg_2_3_4": -1,
+                "glu-L_2_3_4": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ILETAm_b_10",
+            "lower_bound": 0,
+            "metabolites": {
+                "akg_m_3_4_5": 1,
+                "glu-L_m_3_4_5": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ILETAm_b_12",
+            "lower_bound": 0,
+            "metabolites": {
+                "akg_m_2_3_4": 1,
+                "glu-L_m_2_3_4": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ILETAm_f_12",
+            "lower_bound": 0,
+            "metabolites": {
+                "akg_m_2_3_4": -1,
+                "glu-L_m_2_3_4": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ILETAm_f_3",
+            "lower_bound": 0,
+            "metabolites": {
+                "akg_m_3_4_5": -1,
+                "glu-L_m_3_4_5": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "LEUTA_b_3",
+            "lower_bound": 0,
+            "metabolites": {
+                "akg_3_4_5": 1,
+                "glu-L_3_4_5": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "LEUTA_b_6",
+            "lower_bound": 0,
+            "metabolites": {
+                "akg_2_3_4": 1,
+                "glu-L_2_3_4": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "LEUTA_f_1",
+            "lower_bound": 0,
+            "metabolites": {
+                "akg_3_4_5": -1,
+                "glu-L_3_4_5": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "LEUTA_f_3",
+            "lower_bound": 0,
+            "metabolites": {
+                "akg_2_3_4": -1,
+                "glu-L_2_3_4": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "LEUTAm_b_4",
+            "lower_bound": 0,
+            "metabolites": {
+                "akg_m_2_3_4": 1,
+                "glu-L_m_2_3_4": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "LEUTAm_b_6",
+            "lower_bound": 0,
+            "metabolites": {
+                "akg_m_3_4_5": 1,
+                "glu-L_m_3_4_5": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "LEUTAm_f_1",
+            "lower_bound": 0,
+            "metabolites": {
+                "akg_m_3_4_5": -1,
+                "glu-L_m_3_4_5": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "LEUTAm_f_3",
+            "lower_bound": 0,
+            "metabolites": {
+                "akg_m_2_3_4": -1,
+                "glu-L_m_2_3_4": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "MALS_3",
+            "lower_bound": 0,
+            "metabolites": {
+                "accoa_2": -1,
+                "glx_1_2": -1,
+                "mal-L_1_2_3": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "MALS_6",
+            "lower_bound": 0,
+            "metabolites": {
+                "accoa_1_2": -1,
+                "glx_2": -1,
+                "mal-L_2_3_4": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "MALtm_b_5",
+            "lower_bound": 0,
+            "metabolites": {
+                "mal-L_2_3_4": 1,
+                "mal-L_m_2_3_4": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "MALtm_b_9",
+            "lower_bound": 0,
+            "metabolites": {
+                "mal-L_1_2_3": 1,
+                "mal-L_m_1_2_3": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "MALtm_f_4",
+            "lower_bound": 0,
+            "metabolites": {
+                "mal-L_1_2_3": -1,
+                "mal-L_m_1_2_3": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "MALtm_f_6",
+            "lower_bound": 0,
+            "metabolites": {
+                "mal-L_2_3_4": -1,
+                "mal-L_m_2_3_4": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "MDH_b_15",
+            "lower_bound": 0,
+            "metabolites": {
+                "mal-L_1_2_3": 0.5,
+                "oaa_1_2_3": -0.5
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "MDH_b_17",
+            "lower_bound": 0,
+            "metabolites": {
+                "mal-L_2_3_4": 0.5,
+                "oaa_1_2_3": -0.5
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "MDH_b_5",
+            "lower_bound": 0,
+            "metabolites": {
+                "mal-L_2_3_4": 0.5,
+                "oaa_2_3_4": -0.5
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "MDH_b_6",
+            "lower_bound": 0,
+            "metabolites": {
+                "mal-L_1_2_3": 0.5,
+                "oaa_2_3_4": -0.5
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "MDH_f_10",
+            "lower_bound": 0,
+            "metabolites": {
+                "mal-L_1_2_3": -0.5,
+                "oaa_1_2_3": 0.5
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "MDH_f_11",
+            "lower_bound": 0,
+            "metabolites": {
+                "mal-L_2_3_4": -0.5,
+                "oaa_2_3_4": 0.5
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "MDH_f_12",
+            "lower_bound": 0,
+            "metabolites": {
+                "mal-L_2_3_4": -0.5,
+                "oaa_1_2_3": 0.5
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "MDH_f_17",
+            "lower_bound": 0,
+            "metabolites": {
+                "mal-L_1_2_3": -0.5,
+                "oaa_2_3_4": 0.5
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "MDHm_b_0",
+            "lower_bound": 0,
+            "metabolites": {
+                "mal-L_m_1_2_3": 0.5,
+                "oaa_m_2_3_4": -0.5
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "MDHm_b_12",
+            "lower_bound": 0,
+            "metabolites": {
+                "mal-L_m_1_2_3": 0.5,
+                "oaa_m_1_2_3": -0.5
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "MDHm_b_15",
+            "lower_bound": 0,
+            "metabolites": {
+                "mal-L_m_2_3_4": 0.5,
+                "oaa_m_1_2_3": -0.5
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "MDHm_b_4",
+            "lower_bound": 0,
+            "metabolites": {
+                "mal-L_m_2_3_4": 0.5,
+                "oaa_m_2_3_4": -0.5
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "MDHm_f_10",
+            "lower_bound": 0,
+            "metabolites": {
+                "mal-L_m_1_2_3": -0.5,
+                "oaa_m_1_2_3": 0.5
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "MDHm_f_17",
+            "lower_bound": 0,
+            "metabolites": {
+                "mal-L_m_2_3_4": -0.5,
+                "oaa_m_2_3_4": 0.5
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "MDHm_f_4",
+            "lower_bound": 0,
+            "metabolites": {
+                "mal-L_m_1_2_3": -0.5,
+                "oaa_m_2_3_4": 0.5
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "MDHm_f_7",
+            "lower_bound": 0,
+            "metabolites": {
+                "mal-L_m_2_3_4": -0.5,
+                "oaa_m_1_2_3": 0.5
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ME1m_2",
+            "lower_bound": 0,
+            "metabolites": {
+                "mal-L_m_1_2_3": -1,
+                "pyr_m_1_2_3": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ME2m_4",
+            "lower_bound": 0,
+            "metabolites": {
+                "mal-L_m_1_2_3": -1,
+                "pyr_m_1_2_3": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "OAAt2m_b_1",
+            "lower_bound": 0,
+            "metabolites": {
+                "oaa_2_3_4": 1,
+                "oaa_m_2_3_4": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "OAAt2m_b_3",
+            "lower_bound": 0,
+            "metabolites": {
+                "oaa_1_2_3": 1,
+                "oaa_m_1_2_3": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "OAAt2m_f_5",
+            "lower_bound": 0,
+            "metabolites": {
+                "oaa_2_3_4": -1,
+                "oaa_m_2_3_4": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "OAAt2m_f_9",
+            "lower_bound": 0,
+            "metabolites": {
+                "oaa_1_2_3": -1,
+                "oaa_m_1_2_3": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "OXO2Ctm_b_5",
+            "lower_bound": 0,
+            "metabolites": {
+                "akg_3_4_5": -1,
+                "akg_m_3_4_5": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "OXO2Ctm_b_8",
+            "lower_bound": 0,
+            "metabolites": {
+                "akg_2_3_4": -1,
+                "akg_m_2_3_4": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "OXO2Ctm_f_11",
+            "lower_bound": 0,
+            "metabolites": {
+                "akg_2_3_4": 1,
+                "akg_m_2_3_4": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "OXO2Ctm_f_3",
+            "lower_bound": 0,
+            "metabolites": {
+                "akg_3_4_5": 1,
+                "akg_m_3_4_5": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "PC_2",
+            "lower_bound": 0,
+            "metabolites": {
+                "hco3_1": -1,
+                "oaa_2_3_4": 1,
+                "pyr_2_3": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "PC_6",
+            "lower_bound": 0,
+            "metabolites": {
+                "oaa_1_2_3": 1,
+                "pyr_1_2_3": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "PFK_0",
+            "lower_bound": 0,
+            "metabolites": {
+                "f6p_4_5_6": -1,
+                "fdp_4_5_6": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "PFK_8",
+            "lower_bound": 0,
+            "metabolites": {
+                "f6p_1_2_3": -1,
+                "fdp_1_2_3": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "PGI_b_0",
+            "lower_bound": 0,
+            "metabolites": {
+                "f6p_4_5_6": -1,
+                "g6p_4_5_6": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "PGI_b_8",
+            "lower_bound": 0,
+            "metabolites": {
+                "f6p_1_2_3": -1,
+                "g6p_1_2_3": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "PGI_f_10",
+            "lower_bound": 0,
+            "metabolites": {
+                "f6p_1_2_3": 1,
+                "g6p_1_2_3": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "PGI_f_2",
+            "lower_bound": 0,
+            "metabolites": {
+                "f6p_4_5_6": 1,
+                "g6p_4_5_6": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "PGK_b_0",
+            "lower_bound": 0,
+            "metabolites": {
+                "13dpg_1_2_3": -1,
+                "3pg_1_2_3": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "PGK_f_2",
+            "lower_bound": 0,
+            "metabolites": {
+                "13dpg_1_2_3": 1,
+                "3pg_1_2_3": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "PGL_3",
+            "lower_bound": 0,
+            "metabolites": {
+                "6pgc_4_5_6": 1,
+                "6pgl_4_5_6": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "PGM_b_2",
+            "lower_bound": 0,
+            "metabolites": {
+                "2pg_1_2_3": 1,
+                "3pg_1_2_3": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "PGM_f_1",
+            "lower_bound": 0,
+            "metabolites": {
+                "2pg_1_2_3": -1,
+                "3pg_1_2_3": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "PHETA1_b_3",
+            "lower_bound": 0,
+            "metabolites": {
+                "akg_2_3_4": 1,
+                "glu-L_2_3_4": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "PHETA1_b_8",
+            "lower_bound": 0,
+            "metabolites": {
+                "akg_3_4_5": 1,
+                "glu-L_3_4_5": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "PHETA1_f_1",
+            "lower_bound": 0,
+            "metabolites": {
+                "akg_2_3_4": -1,
+                "glu-L_2_3_4": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "PHETA1_f_7",
+            "lower_bound": 0,
+            "metabolites": {
+                "akg_3_4_5": -1,
+                "glu-L_3_4_5": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "PPCK_3",
+            "lower_bound": 0,
+            "metabolites": {
+                "oaa_1_2_3": -1,
+                "pep_1_2_3": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "PRPPS_b_3",
+            "lower_bound": 0,
+            "metabolites": {
+                "prpp_3_4_5": -1,
+                "r5p_3_4_5": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "PRPPS_f_0",
+            "lower_bound": 0,
+            "metabolites": {
+                "prpp_3_4_5": 1,
+                "r5p_3_4_5": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "PSERT_12",
+            "lower_bound": 0,
+            "metabolites": {
+                "akg_2_3_4": 1,
+                "glu-L_2_3_4": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "PSERT_2",
+            "lower_bound": 0,
+            "metabolites": {
+                "akg_3_4_5": 1,
+                "glu-L_3_4_5": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "PYK_5",
+            "lower_bound": 0,
+            "metabolites": {
+                "pep_1_2_3": -1,
+                "pyr_1_2_3": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "PYRt2m_b_1",
+            "lower_bound": 0,
+            "metabolites": {
+                "pyr_1_2_3": 1,
+                "pyr_m_1_2_3": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "PYRt2m_f_0",
+            "lower_bound": 0,
+            "metabolites": {
+                "pyr_1_2_3": -1,
+                "pyr_m_1_2_3": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "RPE_b_5",
+            "lower_bound": 0,
+            "metabolites": {
+                "ru5p-D_3_4_5": 1,
+                "xu5p-D_3_4_5": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "RPE_f_9",
+            "lower_bound": 0,
+            "metabolites": {
+                "ru5p-D_3_4_5": -1,
+                "xu5p-D_3_4_5": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "RPI_b_2",
+            "lower_bound": 0,
+            "metabolites": {
+                "r5p_3_4_5": 1,
+                "ru5p-D_3_4_5": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "RPI_f_9",
+            "lower_bound": 0,
+            "metabolites": {
+                "r5p_3_4_5": -1,
+                "ru5p-D_3_4_5": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "SACCD1_b_4",
+            "lower_bound": 0,
+            "metabolites": {
+                "glu-L_3_4_5": 1,
+                "saccrp-L_3_4_5": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "SACCD1_b_6",
+            "lower_bound": 0,
+            "metabolites": {
+                "glu-L_2_3_4": 1,
+                "saccrp-L_2_3_4": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "SACCD1_f_3",
+            "lower_bound": 0,
+            "metabolites": {
+                "glu-L_3_4_5": -1,
+                "saccrp-L_3_4_5": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "SACCD1_f_7",
+            "lower_bound": 0,
+            "metabolites": {
+                "glu-L_2_3_4": -1,
+                "saccrp-L_2_3_4": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "SACCD2_b_4",
+            "lower_bound": 0,
+            "metabolites": {
+                "akg_3_4_5": -1,
+                "saccrp-L_3_4_5": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "SACCD2_b_8",
+            "lower_bound": 0,
+            "metabolites": {
+                "akg_2_3_4": -1,
+                "saccrp-L_2_3_4": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "SACCD2_f_4",
+            "lower_bound": 0,
+            "metabolites": {
+                "akg_3_4_5": 1,
+                "saccrp-L_3_4_5": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "SACCD2_f_8",
+            "lower_bound": 0,
+            "metabolites": {
+                "akg_2_3_4": 1,
+                "saccrp-L_2_3_4": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "SUCD1m_b_3",
+            "lower_bound": 0,
+            "metabolites": {
+                "fum_m_2_3_4": -1,
+                "succ_m_2_3_4": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "SUCD1m_b_5",
+            "lower_bound": 0,
+            "metabolites": {
+                "fum_m_1_2_3": -1,
+                "succ_m_1_2_3": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "SUCD1m_f_2",
+            "lower_bound": 0,
+            "metabolites": {
+                "fum_m_1_2_3": 1,
+                "succ_m_1_2_3": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "SUCD1m_f_5",
+            "lower_bound": 0,
+            "metabolites": {
+                "fum_m_2_3_4": 1,
+                "succ_m_2_3_4": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "SUCD2_u6m_b_4",
+            "lower_bound": 0,
+            "metabolites": {
+                "fum_m_1_2_3": -1,
+                "succ_m_1_2_3": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "SUCD2_u6m_b_6",
+            "lower_bound": 0,
+            "metabolites": {
+                "fum_m_2_3_4": -1,
+                "succ_m_2_3_4": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "SUCD2_u6m_f_3",
+            "lower_bound": 0,
+            "metabolites": {
+                "fum_m_2_3_4": 1,
+                "succ_m_2_3_4": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "SUCD2_u6m_f_9",
+            "lower_bound": 0,
+            "metabolites": {
+                "fum_m_1_2_3": 1,
+                "succ_m_1_2_3": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "SUCFUMtm_10",
+            "lower_bound": 0,
+            "metabolites": {
+                "succ_2_3_4": -1,
+                "succ_m_2_3_4": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "SUCFUMtm_14",
+            "lower_bound": 0,
+            "metabolites": {
+                "succ_1_2_3": -1,
+                "succ_m_1_2_3": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "SUCFUMtm_3",
+            "lower_bound": 0,
+            "metabolites": {
+                "fum_1_2_3": 1,
+                "fum_m_1_2_3": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "SUCFUMtm_4",
+            "lower_bound": 0,
+            "metabolites": {
+                "fum_2_3_4": 1,
+                "fum_m_2_3_4": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "SUCOASm_b_1",
+            "lower_bound": 0,
+            "metabolites": {
+                "succ_m_1_2_3": 1,
+                "succoa_m_1_2_3": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "SUCOASm_b_2",
+            "lower_bound": 0,
+            "metabolites": {
+                "succ_m_2_3_4": 1,
+                "succoa_m_2_3_4": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "SUCOASm_f_6",
+            "lower_bound": 0,
+            "metabolites": {
+                "succ_m_2_3_4": -1,
+                "succoa_m_2_3_4": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "SUCOASm_f_9",
+            "lower_bound": 0,
+            "metabolites": {
+                "succ_m_1_2_3": -1,
+                "succoa_m_1_2_3": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "TA1_b_2",
+            "lower_bound": 0,
+            "metabolites": {
+                "TAC3_1_2_3": -1,
+                "f6p_1_2_3": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "TA1_b_7",
+            "lower_bound": 0,
+            "metabolites": {
+                "f6p_4_5_6": 1,
+                "g3p_1_2_3": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "TA1_f_0",
+            "lower_bound": 0,
+            "metabolites": {
+                "TAC3_2_3": 1,
+                "f6p_2_3": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "TA1_f_1",
+            "lower_bound": 0,
+            "metabolites": {
+                "f6p_4_5_6": -1,
+                "g3p_1_2_3": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "TA1_f_2",
+            "lower_bound": 0,
+            "metabolites": {
+                "TAC3_1_2": 1,
+                "f6p_1_2": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "TA2_b_13",
+            "lower_bound": 0,
+            "metabolites": {
+                "TAC3_1_2_3": -1,
+                "s7p_1_2_3": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "TA2_b_3",
+            "lower_bound": 0,
+            "metabolites": {
+                "e4p_2_3_4": -1,
+                "s7p_5_6_7": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "TA2_f_12",
+            "lower_bound": 0,
+            "metabolites": {
+                "TAC3_2_3": 1,
+                "s7p_2_3": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "TA2_f_7",
+            "lower_bound": 0,
+            "metabolites": {
+                "e4p_2_3_4": 1,
+                "s7p_5_6_7": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "TA2_f_9",
+            "lower_bound": 0,
+            "metabolites": {
+                "TAC3_1_2": 1,
+                "s7p_1_2": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "TK1_b_0",
+            "lower_bound": 0,
+            "metabolites": {
+                "g3p_1_2_3": -1,
+                "xu5p-D_3_4_5": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "TK1_f_4",
+            "lower_bound": 0,
+            "metabolites": {
+                "g3p_1_2_3": 1,
+                "xu5p-D_3_4_5": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "TK1_f_8",
+            "lower_bound": 0,
+            "metabolites": {
+                "TKC2_1_2": 1,
+                "xu5p-D_1_2": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "TK2_b_6",
+            "lower_bound": 0,
+            "metabolites": {
+                "TKC2_1_2": -1,
+                "e4p_1": -1,
+                "f6p_1_2_3": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "TK2_b_7",
+            "lower_bound": 0,
+            "metabolites": {
+                "e4p_2_3_4": -1,
+                "f6p_4_5_6": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "TK2_f_1",
+            "lower_bound": 0,
+            "metabolites": {
+                "TKC2_1_2": 1,
+                "f6p_1_2": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "TK2_f_4",
+            "lower_bound": 0,
+            "metabolites": {
+                "e4p_2_3_4": 1,
+                "f6p_4_5_6": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "TK3_b_14",
+            "lower_bound": 0,
+            "metabolites": {
+                "TKC2_1_2": -1,
+                "r5p_1": -1,
+                "s7p_1_2_3": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "TK3_b_3",
+            "lower_bound": 0,
+            "metabolites": {
+                "r5p_3_4_5": -1,
+                "s7p_5_6_7": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "TK3_f_0",
+            "lower_bound": 0,
+            "metabolites": {
+                "TKC2_1_2": 1,
+                "s7p_1_2": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "TK3_f_10",
+            "lower_bound": 0,
+            "metabolites": {
+                "r5p_3_4_5": 1,
+                "s7p_5_6_7": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "TPI_b_2",
+            "lower_bound": 0,
+            "metabolites": {
+                "dhap_1_2_3": 1,
+                "g3p_1_2_3": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "TPI_f_1",
+            "lower_bound": 0,
+            "metabolites": {
+                "dhap_1_2_3": -1,
+                "g3p_1_2_3": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "TYRTAi_4",
+            "lower_bound": 0,
+            "metabolites": {
+                "akg_2_3_4": 1,
+                "glu-L_2_3_4": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "TYRTAi_6",
+            "lower_bound": 0,
+            "metabolites": {
+                "akg_3_4_5": 1,
+                "glu-L_3_4_5": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "VALTA_b_14",
+            "lower_bound": 0,
+            "metabolites": {
+                "akg_3_4_5": 1,
+                "glu-L_3_4_5": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "VALTA_b_6",
+            "lower_bound": 0,
+            "metabolites": {
+                "akg_2_3_4": 1,
+                "glu-L_2_3_4": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "VALTA_f_11",
+            "lower_bound": 0,
+            "metabolites": {
+                "akg_2_3_4": -1,
+                "glu-L_2_3_4": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "VALTA_f_2",
+            "lower_bound": 0,
+            "metabolites": {
+                "akg_3_4_5": -1,
+                "glu-L_3_4_5": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        }
+    ],
+    "version": "1"
+}

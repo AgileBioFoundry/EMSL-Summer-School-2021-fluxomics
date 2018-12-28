@@ -1,0 +1,103 @@
+{
+    "compartments": {
+        "": ""
+    },
+    "genes": [],
+    "id": "yeast_VerboseFullEMUNetwork.clean.txt_size_7",
+    "metabolites": [
+        {
+            "compartment": "",
+            "id": "2dda7p_1_2_3_4_5_6_7",
+            "name": "2dda7p"
+        },
+        {
+            "compartment": "",
+            "id": "3dhq_1_2_3_4_5_6_7",
+            "name": "3dhq"
+        },
+        {
+            "compartment": "",
+            "id": "3dhsk_1_2_3_4_5_6_7",
+            "name": "3dhsk"
+        },
+        {
+            "compartment": "",
+            "id": "e4p_1_2_3_4",
+            "name": "e4p"
+        },
+        {
+            "compartment": "",
+            "id": "pep_1_2_3",
+            "name": "pep"
+        },
+        {
+            "compartment": "",
+            "id": "skm5p_1_2_3_4_5_6_7",
+            "name": "skm5p"
+        },
+        {
+            "compartment": "",
+            "id": "skm_1_2_3_4_5_6_7",
+            "name": "skm"
+        }
+    ],
+    "reactions": [
+        {
+            "gene_reaction_rule": "",
+            "id": "DDPA_0",
+            "lower_bound": 0,
+            "metabolites": {
+                "2dda7p_1_2_3_4_5_6_7": 1,
+                "e4p_1_2_3_4": -1,
+                "pep_1_2_3": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "DHQS_0",
+            "lower_bound": 0,
+            "metabolites": {
+                "2dda7p_1_2_3_4_5_6_7": -1,
+                "3dhq_1_2_3_4_5_6_7": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "DHQTi_0",
+            "lower_bound": 0,
+            "metabolites": {
+                "3dhq_1_2_3_4_5_6_7": -1,
+                "3dhsk_1_2_3_4_5_6_7": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "SHK3D_0",
+            "lower_bound": 0,
+            "metabolites": {
+                "3dhsk_1_2_3_4_5_6_7": -1,
+                "skm_1_2_3_4_5_6_7": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "SHKK_0",
+            "lower_bound": 0,
+            "metabolites": {
+                "skm5p_1_2_3_4_5_6_7": 1,
+                "skm_1_2_3_4_5_6_7": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        }
+    ],
+    "version": "1"
+}

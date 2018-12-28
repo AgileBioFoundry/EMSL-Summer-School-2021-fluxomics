@@ -1,0 +1,438 @@
+{
+    "compartments": {
+        "": ""
+    },
+    "genes": [],
+    "id": "yeast_VerboseFullEMUNetwork.clean.txt_size_6",
+    "metabolites": [
+        {
+            "compartment": "",
+            "id": "23dhmp_m_1_2_3_4_5_6",
+            "name": "23dhmp_m"
+        },
+        {
+            "compartment": "",
+            "id": "2ahbut_m_1_2_3_4_5_6",
+            "name": "2ahbut_m"
+        },
+        {
+            "compartment": "",
+            "id": "2ippm_1_2_3_4_5_6",
+            "name": "2ippm"
+        },
+        {
+            "compartment": "",
+            "id": "2obut_m_1_2_3_4",
+            "name": "2obut_m"
+        },
+        {
+            "compartment": "",
+            "id": "3c2hmp_1_2_3_4_5_6",
+            "name": "3c2hmp"
+        },
+        {
+            "compartment": "",
+            "id": "3c3hmp_1_2_3_4_5_6",
+            "name": "3c3hmp"
+        },
+        {
+            "compartment": "",
+            "id": "3c3hmp_m_1_2_3_4_5_6",
+            "name": "3c3hmp_m"
+        },
+        {
+            "compartment": "",
+            "id": "3c4mop_1_2_3_4_5_6",
+            "name": "3c4mop"
+        },
+        {
+            "compartment": "",
+            "id": "3c4mop_m_1_2_3_4_5_6",
+            "name": "3c4mop_m"
+        },
+        {
+            "compartment": "",
+            "id": "3mob_1_2_3_4",
+            "name": "3mob"
+        },
+        {
+            "compartment": "",
+            "id": "3mob_m_1_2_3_4",
+            "name": "3mob_m"
+        },
+        {
+            "compartment": "",
+            "id": "3mop_1_2_3_4_5_6",
+            "name": "3mop"
+        },
+        {
+            "compartment": "",
+            "id": "3mop_m_1_2_3_4_5_6",
+            "name": "3mop_m"
+        },
+        {
+            "compartment": "",
+            "id": "4mop_1_2_3_4_5_6",
+            "name": "4mop"
+        },
+        {
+            "compartment": "",
+            "id": "accoa_1_2",
+            "name": "accoa"
+        },
+        {
+            "compartment": "",
+            "id": "accoa_m_1_2",
+            "name": "accoa_m"
+        },
+        {
+            "compartment": "",
+            "id": "arg-L_1_2_3_4_5_6",
+            "name": "arg-L"
+        },
+        {
+            "compartment": "",
+            "id": "argsuc_1_2_3_4_5_6",
+            "name": "argsuc"
+        },
+        {
+            "compartment": "",
+            "id": "cbp_1",
+            "name": "cbp"
+        },
+        {
+            "compartment": "",
+            "id": "citr-L_1_2_3_4_5_6",
+            "name": "citr-L"
+        },
+        {
+            "compartment": "",
+            "id": "ile-L_1_2_3_4_5_6",
+            "name": "ile-L"
+        },
+        {
+            "compartment": "",
+            "id": "ile-L_m_1_2_3_4_5_6",
+            "name": "ile-L_m"
+        },
+        {
+            "compartment": "",
+            "id": "leu-L_1_2_3_4_5_6",
+            "name": "leu-L"
+        },
+        {
+            "compartment": "",
+            "id": "orn_1_2_3_4_5",
+            "name": "orn"
+        },
+        {
+            "compartment": "",
+            "id": "pyr_m_2_3",
+            "name": "pyr_m"
+        }
+    ],
+    "reactions": [
+        {
+            "gene_reaction_rule": "",
+            "id": "3C3HMPtm_b_1",
+            "lower_bound": 0,
+            "metabolites": {
+                "3c3hmp_1_2_3_4_5_6": 1,
+                "3c3hmp_m_1_2_3_4_5_6": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "3C3HMPtm_f_1",
+            "lower_bound": 0,
+            "metabolites": {
+                "3c3hmp_1_2_3_4_5_6": -1,
+                "3c3hmp_m_1_2_3_4_5_6": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "3C4MOPtm_b_0",
+            "lower_bound": 0,
+            "metabolites": {
+                "3c4mop_1_2_3_4_5_6": 1,
+                "3c4mop_m_1_2_3_4_5_6": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "3C4MOPtm_f_0",
+            "lower_bound": 0,
+            "metabolites": {
+                "3c4mop_1_2_3_4_5_6": -1,
+                "3c4mop_m_1_2_3_4_5_6": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "3MOPtm_b_0",
+            "lower_bound": 0,
+            "metabolites": {
+                "3mop_1_2_3_4_5_6": 1,
+                "3mop_m_1_2_3_4_5_6": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "3MOPtm_f_0",
+            "lower_bound": 0,
+            "metabolites": {
+                "3mop_1_2_3_4_5_6": -1,
+                "3mop_m_1_2_3_4_5_6": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ACHBSm_0",
+            "lower_bound": 0,
+            "metabolites": {
+                "2ahbut_m_1_2_3_4_5_6": 1,
+                "2obut_m_1_2_3_4": -1,
+                "pyr_m_2_3": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ARGSL_b_7",
+            "lower_bound": 0,
+            "metabolites": {
+                "arg-L_1_2_3_4_5_6": -1,
+                "argsuc_1_2_3_4_5_6": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ARGSL_f_5",
+            "lower_bound": 0,
+            "metabolites": {
+                "arg-L_1_2_3_4_5_6": 1,
+                "argsuc_1_2_3_4_5_6": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ARGSSr_0",
+            "lower_bound": 0,
+            "metabolites": {
+                "argsuc_1_2_3_4_5_6": 1,
+                "citr-L_1_2_3_4_5_6": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "DHAD2m_0",
+            "lower_bound": 0,
+            "metabolites": {
+                "23dhmp_m_1_2_3_4_5_6": -1,
+                "3mop_m_1_2_3_4_5_6": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ILETA_b_11",
+            "lower_bound": 0,
+            "metabolites": {
+                "3mop_1_2_3_4_5_6": -1,
+                "ile-L_1_2_3_4_5_6": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ILETA_f_8",
+            "lower_bound": 0,
+            "metabolites": {
+                "3mop_1_2_3_4_5_6": 1,
+                "ile-L_1_2_3_4_5_6": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ILETAm_b_0",
+            "lower_bound": 0,
+            "metabolites": {
+                "3mop_m_1_2_3_4_5_6": -1,
+                "ile-L_m_1_2_3_4_5_6": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "ILETAm_f_11",
+            "lower_bound": 0,
+            "metabolites": {
+                "3mop_m_1_2_3_4_5_6": 1,
+                "ile-L_m_1_2_3_4_5_6": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "IPMD_1",
+            "lower_bound": 0,
+            "metabolites": {
+                "3c2hmp_1_2_3_4_5_6": -1,
+                "3c4mop_1_2_3_4_5_6": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "IPPMIa_b_1",
+            "lower_bound": 0,
+            "metabolites": {
+                "2ippm_1_2_3_4_5_6": -1,
+                "3c2hmp_1_2_3_4_5_6": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "IPPMIa_f_1",
+            "lower_bound": 0,
+            "metabolites": {
+                "2ippm_1_2_3_4_5_6": 1,
+                "3c2hmp_1_2_3_4_5_6": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "IPPMIb_b_1",
+            "lower_bound": 0,
+            "metabolites": {
+                "2ippm_1_2_3_4_5_6": 1,
+                "3c3hmp_1_2_3_4_5_6": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "IPPMIb_f_1",
+            "lower_bound": 0,
+            "metabolites": {
+                "2ippm_1_2_3_4_5_6": -1,
+                "3c3hmp_1_2_3_4_5_6": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "IPPS_0",
+            "lower_bound": 0,
+            "metabolites": {
+                "3c3hmp_1_2_3_4_5_6": 1,
+                "3mob_1_2_3_4": -1,
+                "accoa_1_2": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "IPPSm_0",
+            "lower_bound": 0,
+            "metabolites": {
+                "3c3hmp_m_1_2_3_4_5_6": 1,
+                "3mob_m_1_2_3_4": -1,
+                "accoa_m_1_2": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "KARA2im_0",
+            "lower_bound": 0,
+            "metabolites": {
+                "23dhmp_m_1_2_3_4_5_6": 1,
+                "2ahbut_m_1_2_3_4_5_6": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "LEUTA_b_2",
+            "lower_bound": 0,
+            "metabolites": {
+                "4mop_1_2_3_4_5_6": -1,
+                "leu-L_1_2_3_4_5_6": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "LEUTA_f_11",
+            "lower_bound": 0,
+            "metabolites": {
+                "4mop_1_2_3_4_5_6": 1,
+                "leu-L_1_2_3_4_5_6": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "OCBTi_f_0",
+            "lower_bound": 0,
+            "metabolites": {
+                "cbp_1": -1,
+                "citr-L_1_2_3_4_5_6": 1,
+                "orn_1_2_3_4_5": -1
+            },
+            "name": "",
+            "upper_bound": 1000
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "OMCDC_1",
+            "lower_bound": 0,
+            "metabolites": {
+                "3c4mop_1_2_3_4_5_6": -1,
+                "4mop_1_2_3_4_5_6": 1
+            },
+            "name": "",
+            "upper_bound": 1000
+        }
+    ],
+    "version": "1"
+}
