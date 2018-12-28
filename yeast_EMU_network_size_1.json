@@ -1,5 +1,7 @@
 {
-    "compartments": {},
+    "compartments": {
+        "": ""
+    },
     "genes": [],
     "id": "yeast_VerboseFullEMUNetwork.clean.txt_size_1",
     "metabolites": [

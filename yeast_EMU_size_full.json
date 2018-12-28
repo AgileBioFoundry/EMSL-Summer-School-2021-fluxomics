@@ -11360,6 +11360,7 @@
                 "co2_e_1": -1
             },
             "name": "",
+            "objective_coefficient": 1.0,
             "upper_bound": 1000
         },
         {
