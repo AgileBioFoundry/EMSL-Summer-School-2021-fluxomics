@@ -267,7 +267,7 @@ def get_EMU_basis_vectors_and_pathways( network, external_rxns,external_mets, ou
         EMU_basis_vector.loc[em,'EMU Basis Vector'] = get_EMU_basis_vector_name( EMU_basis_vector.loc[em] )
     return EMU_basis_vector, elmos
 def get_nullspace( df ):
-    basis_vectors = sympy.Matrix(S.values).nullspace()
+    basis_vectors = sympy.Matrix(df.values).nullspace()
     return pd.DataFrame(dict([('bv{}'.format(i), 
                         np.squeeze(np.array(bv.tolist(), dtype=float))) 
                         for i,bv in 
