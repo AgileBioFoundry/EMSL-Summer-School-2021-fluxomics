@@ -1,3 +1,4 @@
+# %%
 
 # coding: utf-8
 
@@ -21,7 +22,7 @@
 # * An **Elementary mode (ELMO)** of a network is a minimal cardinality set of reactions that form a steady-state. Minimal cardinality means that no steady-state flux distribution can be a subset of an elementary mode.  The set of elementary modes forms a basis for steady-state flux space.
 # * Assertion: The elementary modes of the EMU network are the EMU pathways. Evidence for this assertion is provided below.
 
-# In[1]:
+# %%
 
 
 import cobra
