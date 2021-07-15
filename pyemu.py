@@ -8,12 +8,12 @@ sys.path.append(os.path.join(os.environ['HOME'],'Projects/src'))
 from pyefm import calculate_elementary_modes, calculate_minimum_cut_sets
 from d3flux import flux_map
 from IPython.display import display, Image, SVG, Markdown,Latex, HTML
-import sympy 
+import sympy
 from itertools import chain
 
 def augment_model_with_external_rxns( model, metabolites, prefix='EX_{}', sink_or_source='sink' ):
     new_model = model.copy()
-    external_rxns = dict([(metabolite.id, 
+    external_rxns = dict([(metabolite.id,
                        cobra.Reaction(prefix.format(metabolite.id)))
                              for metabolite in metabolites])
     new_model.add_reactions( external_rxns.values() )
@@ -29,8 +29,8 @@ def flatten( lol ):
 def emus_of_met( met, network ):
     return flatten([m.reactions for m in network.metabolites if met in m.id])
 def emus_of_product( met , network):
-    return [rxn for rxn in network.reactions 
-                for product in rxn.products 
+    return [rxn for rxn in network.reactions
+                for product in rxn.products
                         if met in product.id]
 
 def get_em_description(em_pwy):
@@ -39,17 +39,17 @@ def get_em_description(em_pwy):
         if em_pwy[glc] != 0:
             return 'glc-D_e_{} --> co2_e_1'.format(i+1)
 
-        
+
 def display_rxns(rxns):
     print('\n'.join(['{}\t{:50}\t({}-{})'.format(rxn.id, rxn.reaction, rxn.lower_bound, rxn.upper_bound)
                  for rxn in rxns]))
 
-    
+
 def size_of_emu_rxn( rxn ):
     size = 0
     if len(rxn.products) == 0:
         for reactant in rxn.reactants:
-            size += len(EMU(reactant.id).get_atoms()) 
+            size += len(EMU(reactant.id).get_atoms())
     else:
         for product in rxn.products:
             size += len(EMU(product.id).get_atoms())
@@ -82,14 +82,14 @@ def read_emu_network( emufilename ):
     return emu_model
 
 class MID(object):
-    """The Mass Isotopic Distribution (MID) class is just a wrapper around 
-        a pandas Series with index  corresponding to 'M+0', 'M+1',...,M+{n} 
+    """The Mass Isotopic Distribution (MID) class is just a wrapper around
+        a pandas Series with index  corresponding to 'M+0', 'M+1',...,M+{n}
         where n is the number of atoms.  The values of the MID should sum to 100"""
     def __init__( self, mid ):
         if type(mid) is pd.core.series.Series:
             self.mid = mid
             if self.mid.sum() != 100:
-                raise 
+                raise
     def __getattr__( self, attr ):
         return self.mid.__getattr__( attr )
 def symbolic_convolve(f, g, x, lower_limit, upper_limit):
@@ -101,11 +101,11 @@ def convolve( isotopic_labeling_state1, isotopic_labeling_state2 ):
     isotopic_labeling_state3 = np.convolve(isotopic_labeling_state1.values, isotopic_labeling_state2.values)
     idx = sorted(isotopic_labeling_state1.index.union(isotopic_labeling_state2.index))
     return pd.Series(isotopic_labeling_state3,index=idx)
-    
+
 class Tracer:
     """Tracer represents a substrate with a mixture of labels.  met is the metabolite name.  num_atoms is the total number of atoms in the metabolite.
-    isotopic_labeling_state is a DataFrame with the index enumerating the number of elements of the mixture, 
-    the first column is the percentage (the values of this column add up to 100), the remaining columns represent the number of carbon atoms (starting from 1). 
+    isotopic_labeling_state is a DataFrame with the index enumerating the number of elements of the mixture,
+    the first column is the percentage (the values of this column add up to 100), the remaining columns represent the number of carbon atoms (starting from 1).
     The value of each element is the number of additional neutrons for the atom in each component of the mixture."""
     def __init__(self, met, num_atoms, isotopic_labeling_state ):
         self.metabolite = Metabolite(met)
@@ -121,7 +121,7 @@ class Tracer:
     def get_name( self, latex=True ):
         if latex:
             return ' and '.join(self.isotopic_labeling_state.index)
-        
+
 class EMU(object):
     atom_re = re.compile(r'^([A-Za-z0-9_-]+?)([0-9_]+)$')
     def __init__( self, emu ):
@@ -160,9 +160,9 @@ class EMU(object):
         return tracers[ self.get_metabolite() ].get_isotopic_labeling_state()[ self.get_atoms() ]
     def get_mid( self, tracers ):
         """tracers is a dictionary where the key is a metabolite and the value is the corresponding Tracer object.
-        Each Tracer object contains the isotopic_distribution_vector, which is described above.  
+        Each Tracer object contains the isotopic_distribution_vector, which is described above.
         The emu contains a subset of the number of atoms in the metabolite isotopic distribution.
-        By summing up the number of additional neutrons for each atom in the emu for each component of the mixture, 
+        By summing up the number of additional neutrons for each atom in the emu for each component of the mixture,
         an overall Mass isotopic Distribution (MID) is obtained."""
         tracer_ist = tracers[self.get_metabolite()].get_isotopic_labeling_state()
         emu_ist = self.get_isotopic_labeling_state( tracers )
@@ -172,7 +172,7 @@ class EMU(object):
         mid = mid/mid.sum()*100.0
         return mid
 def emus_of_rxn( rxn_name, network ):
-    return ['{}: {}'.format( rxn.id, rxn.build_reaction_string()) 
+    return ['{}: {}'.format( rxn.id, rxn.build_reaction_string())
           for rxn in network.reactions
           if rxn_name in rxn.id]
 
@@ -203,11 +203,11 @@ class EMU_Basis_Vector:
             for _ in range(np.abs(self.get_stoichiometry( emu ))):
                 ils.append( emu.get_isotopic_labeling_state( tracers ))
         return ils
-            
+
     def get_name( self,  latex=True, delim=True ):
         """The EMU basis vector naming scheme is generated automatically from the EMU basis vector."""
         bv_name = []
-        
+
         emu_basis_vector = self.bv
         for emu in self.get_input_emus():
             emu_name = emu.get_name(latex=latex, delim=False )
@@ -230,7 +230,12 @@ class EMU_Basis_Vector:
         return self.bv[emu.get_name(latex=False)].astype(int)
     def get_input_emus( self,sort_by_name_then_atoms=True ):
         if sort_by_name_then_atoms:
-            return sorted([EMU( emu ) for emu in self.bv.index if self.bv[emu] < 0],reverse=True, key= lambda emu: (emu.get_metabolite(), -self.get_stoichiometry( emu )*emu.get_num_atoms()))
+            return sorted([EMU( emu )
+                           for emu in self.bv.index if self.bv[emu] < 0],
+                          reverse=True,
+                          key= lambda emu: (
+                              emu.get_metabolite(),
+                              -self.get_stoichiometry( emu )*emu.get_num_atoms()))
         else:
             return sorted([EMU( emu ) for emu in self.bv.index if self.bv[emu] < 0],reverse=True, key= lambda emu: -self.get_stoichiometry( emu )*emu.get_num_atoms())
     def get_output_emu( self ):
@@ -241,17 +246,17 @@ class EMU_Basis_Vector:
         return pd.Series(mid3,index=idx)
     def get_mid( self, tracers ):
         emus = self.get_input_emus( sort_by_name_then_atoms=False )
-        # Convolve with self if stoichiometry 
-        
+        # Convolve with self if stoichiometry
+
         mid = emus[0].get_mid( tracers )
         for i in range( len( emus ) - 1 ):
             for _ in range( np.abs( self.get_stoichiometry(emus[i]) ) - 1):
                 mid = self.convolve( mid, emus[i].get_mid( tracers ))
             mid = self.convolve(mid, emus[i+1].get_mid( tracers ))
-        return mid    
+        return mid
 
 def get_stoichiometric_matrix( network ):
-    return pd.DataFrame(cobra.util.create_stoichiometric_matrix(network), 
+    return pd.DataFrame(cobra.util.create_stoichiometric_matrix(network),
                     index=[m.id for m in network.metabolites],
                     columns = [r.id for r in network.reactions])
 
@@ -268,9 +273,9 @@ def get_EMU_basis_vectors_and_pathways( network, external_rxns,external_mets, ou
     return EMU_basis_vector, elmos
 def get_nullspace( df ):
     basis_vectors = sympy.Matrix(df.values).nullspace()
-    return pd.DataFrame(dict([('bv{}'.format(i), 
-                        np.squeeze(np.array(bv.tolist(), dtype=float))) 
-                        for i,bv in 
+    return pd.DataFrame(dict([('bv{}'.format(i),
+                        np.squeeze(np.array(bv.tolist(), dtype=float)))
+                        for i,bv in
                             enumerate(basis_vectors)]),
                         index=df.columns)
 def get_nullspace_rref( df ):
